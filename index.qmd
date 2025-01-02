@@ -18,10 +18,10 @@ Born and raised in Hangzhou, China, I moved to Australia in 2015 to pursue unive
 * March 2019 The university of Sydney, B.S Pharmacy
 
 ## Experience
-July 2023 - Present **The university of New South Wales (UNSW)**, Sydney, NSW
+July 2023 - Present **The university of New South Wales (UNSW)**, Sydney, NSW <br>
                      Data scientist, School of population health
                      
-Feb 2023 - Dec 2023 **The university of Sydney**, Sydney, NSW
+Feb 2023 - Dec 2023 **The university of Sydney**, Sydney, NSW <br>
                     Data scientist/Research officer, School of pharmacy
 :::
 
