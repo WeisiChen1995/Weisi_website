@@ -9,18 +9,22 @@ website:
       - href: index.qmd
         text: Home
       - projects.qmd
-      - blog.qmd
+      - Blog.qmd
     tools:
       - icon: twitter
         href: https://twitter.com/
       - icon: github
         href: https://github.com/WeisiChen1995/Weisi_website
+      - icon: linkedin
+        href: https://www.linkedin.com/in/weisi-chen-000334239/
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, Weisi Chen"
+    left: "&copy; Copyright 2025, Weisi Chen"
 
 format:
   html:
+    include-in-header: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     theme: Sandstone
     toc: true
 
