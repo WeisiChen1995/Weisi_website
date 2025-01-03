@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.weisichen.com/blog/index.html</loc>
-    <lastmod>2025-01-03T04:29:16.792Z</lastmod>
+    <loc>https://www.weisichen.com/research.html</loc>
+    <lastmod>2025-01-03T12:02:45.466Z</lastmod>
   </url>
   <url>
-    <loc>https://www.weisichen.com/about.html</loc>
-    <lastmod>2025-01-03T08:44:40.372Z</lastmod>
+    <loc>https://www.weisichen.com/projects.html</loc>
+    <lastmod>2025-01-02T03:30:18.765Z</lastmod>
   </url>
   <url>
     <loc>https://www.weisichen.com/index.html</loc>
     <lastmod>2025-01-03T08:31:17.884Z</lastmod>
   </url>
   <url>
-    <loc>https://www.weisichen.com/projects.html</loc>
-    <lastmod>2025-01-02T03:30:18.765Z</lastmod>
+    <loc>https://www.weisichen.com/about.html</loc>
+    <lastmod>2025-01-03T08:44:40.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.weisichen.com/blog/index.html</loc>
+    <lastmod>2025-01-03T04:29:16.792Z</lastmod>
   </url>
 </urlset>

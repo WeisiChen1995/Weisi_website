@@ -4,6 +4,7 @@ project:
   render: 
     - "index.qmd"
     - "about.qmd"
+    - "research.qmd"
     - "projects.qmd"
     - "blog/index.qmd"
   
@@ -15,6 +16,8 @@ website:
     right:
       - text: "About"
         href: about.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Project"
         href: projects.qmd
       - text: "My blog"
