@@ -4,6 +4,8 @@ project:
   
 website:
   title: "Weisi's website"
+  description: "The personal website of Weisi Chen"
+  site-url: https://www.weisichen.com
   navbar:
     left:
       - href: index.qmd
@@ -12,7 +14,7 @@ website:
       - blog.qmd
     tools:
       - icon: twitter
-        href: https://twitter.com/
+        href: https://x.com/ChenSophie16
       - icon: github
         href: https://github.com/WeisiChen1995/Weisi_website
       - icon: linkedin
@@ -23,8 +25,6 @@ website:
 
 format:
   html:
-    include-in-header: |
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     theme: Sandstone
     toc: true
 
