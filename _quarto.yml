@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render: 
+    - "index.qmd"
+    - "about.qmd"
+    - "projects.qmd"
+    - "blog/index.qmd"
   
 website:
   title: "Weisi's website"
@@ -9,7 +14,7 @@ website:
   navbar:
     right:
       - text: "About"
-        href: index.qmd
+        href: about.qmd
       - text: "Project"
         href: projects.qmd
       - text: "My blog"
