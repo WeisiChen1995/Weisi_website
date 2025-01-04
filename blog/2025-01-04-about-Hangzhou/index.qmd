@@ -1,0 +1,42 @@
+---
+title: "About Hangzhou | 韵味杭州"
+description: "When the Old Meets the New | When the Natrure Meets the City"
+date: '2025-01-04'
+image: "images/westlake1.png"
+categories:
+  - About Hangzhou
+  - Hangzhou scenery
+format: html
+toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3,
+  R.options = list(width = 60)
+)
+```
+
+<center>
+<img src="images/westlake3.png" width=100%>
+</center>
+
+### About Hangzhou
+**Hangzhou** is the capital city of the Zhejiang providence. Nestled in the heart of eastern China, Hangzhou is a city where timeless charm meets vibrant modernity. Renowned for its breathtaking West Lake, a symbol of natural beauty and serenity, Hangzhou has inspired poets and painters for centuries. Beyond its historic allure, the city thrives as a hub of innovation, home to global tech giant Alibaba and a burgeoning digital economy. With its harmonious blend of ancient temples, bustling markets, cutting-edge architecture, and verdant tea plantations, Hangzhou offers a captivating journey through history and progress.
+
+### Hangzhou scenery 
+#### Hefang Street (河坊街)
+**Hefang Ancient Street** is one of Hangzhou’s oldest and most iconic streets, tracing its origins back to the Southern Song Dynasty and reaching its peak prosperity in the Qing Dynasty. It serves as a vibrant window into the city’s rich cultural heritage, where the echoes of history come alive amidst a bustling modern scene. This historic pedestrian street is adorned with beautifully preserved Qing Dynasty-style architecture and is a treasure trove of traditional crafts, local delicacies, and cultural charm. Among its highlights is **Huqingyutang** (胡庆余堂), a renowned traditional Chinese medicine (TCM) pharmacy and museum established in 1874. Additionally, artisans craft intricate calligraphy brushes, delicate silk umbrellas, and other traditional goods, while food stalls offer classic Hangzhou treats like beggar’s chicken (叫花鸡) and sweet osmanthus cake （桂花糕). Hefang Ancient Street is a unique journey through time, blending the allure of the past with the vitality of the present.
+
+<center>
+<img src="images/hefangjie1.png" width=100%>
+</center>
+
+
+
