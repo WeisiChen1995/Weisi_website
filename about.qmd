@@ -12,7 +12,7 @@ Welcome to my personal website! I am a pharmacist and data analyst based in Sydn
 
 ## Education
 
-**March 2023**: The university of New South Wales (UNSW), M.S Health data science <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
+**March 2023**: The university of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
 
 **March 2019**: The university of Sydney, B.S Pharmacy
 

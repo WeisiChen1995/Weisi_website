@@ -1,6 +1,6 @@
 ---
 title: "About Hangzhou | 韵味杭州"
-description: "When the Old Meets the New | When the Natrure Meets the City"
+description: "When the Old Meets the New | When the Nature Meets the City"
 date: '2025-01-04'
 image: "images/westlake1.png"
 categories:
@@ -28,15 +28,71 @@ knitr::opts_chunk$set(
 </center>
 
 ### About Hangzhou
-**Hangzhou** is the capital city of the Zhejiang providence. Nestled in the heart of eastern China, Hangzhou is a city where timeless charm meets vibrant modernity. Renowned for its breathtaking West Lake, a symbol of natural beauty and serenity, Hangzhou has inspired poets and painters for centuries. Beyond its historic allure, the city thrives as a hub of innovation, home to global tech giant Alibaba and a burgeoning digital economy. With its harmonious blend of ancient temples, bustling markets, cutting-edge architecture, and verdant tea plantations, Hangzhou offers a captivating journey through history and progress.
+**Hangzhou (杭州)** is the capital city of the Zhejiang providence. Nestled in the heart of eastern China, Hangzhou is a city where timeless charm meets vibrant modernity. Renowned for its breathtaking **West Lake(西湖)**, a symbol of natural beauty and serenity, Hangzhou has inspired poets and painters for centuries. Beyond its historic allure, the city thrives as a hub of innovation, home to global tech giant Alibaba and a burgeoning digital economy. With its harmonious blend of ancient temples, bustling markets, cutting-edge architecture, and verdant tea plantations, Hangzhou offers a captivating journey through history and progress.
 
-### Hangzhou scenery 
-#### Hefang Street (河坊街)
-**Hefang Ancient Street** is one of Hangzhou’s oldest and most iconic streets, tracing its origins back to the Southern Song Dynasty and reaching its peak prosperity in the Qing Dynasty. It serves as a vibrant window into the city’s rich cultural heritage, where the echoes of history come alive amidst a bustling modern scene. This historic pedestrian street is adorned with beautifully preserved Qing Dynasty-style architecture and is a treasure trove of traditional crafts, local delicacies, and cultural charm. Among its highlights is **Huqingyutang** (胡庆余堂), a renowned traditional Chinese medicine (TCM) pharmacy and museum established in 1874. Additionally, artisans craft intricate calligraphy brushes, delicate silk umbrellas, and other traditional goods, while food stalls offer classic Hangzhou treats like beggar’s chicken (叫花鸡) and sweet osmanthus cake （桂花糕). Hefang Ancient Street is a unique journey through time, blending the allure of the past with the vitality of the present.
+### Hefang Street (河坊街)
+**Hefang Ancient Street (河坊街)** is one of Hangzhou’s oldest and most iconic streets, tracing its origins back to the Southern Song Dynasty and reaching its peak prosperity in the Qing Dynasty. It serves as a vibrant window into the city’s rich cultural heritage, where the echoes of history come alive amidst a bustling modern scene. This historic pedestrian street is adorned with beautifully preserved Qing Dynasty-style architecture and is a treasure trove of traditional crafts, local delicacies, and cultural charm. Among its highlights is **Huqingyutang(胡庆余堂)**, a renowned traditional Chinese medicine (TCM) pharmacy and museum established in 1874. Additionally, artisans craft intricate calligraphy brushes, delicate silk umbrellas, and other traditional goods, while food stalls offer classic Hangzhou treats like beggar’s chicken (叫花鸡) and sweet osmanthus cake (桂花糕). Hefang Ancient Street is a unique journey through time, blending the allure of the past with the vitality of the present.
 
 <center>
-<img src="images/hefangjie1.png" width=100%>
+<img src="images/hefangjie1.png" width="100%">
+<img src="images/hefangjie2.png" width="100%">
 </center>
 
+<div style="font-size: 0.85em; text-align: left;">
+Hefang Street (河坊街): A historic street blending cultural heritage with modern vibrancy.
+</div>
 
+
+<center>
+<img src="images/huqingyutang1.png" width="100%">
+</center>
+<div style="font-size: 0.85em; text-align: left;">
+The outer wall of Huqingyutang (胡庆余堂): A renowned traditional Chinese medicine pharmacy.
+</div>
+
+<center>
+<img src="images/huqingyutang2.png" width="100%">
+<img src="images/huqingyutang3.png" width="100%">
+</center>
+<div style="font-size: 0.85em; text-align: left;">
+The inside of Huqingyutang (胡庆余堂): It offers a diverse range of products including traditional Chinese medicines, health supplements, and herbal teas.
+</div>
+
+<center>
+<img src="images/huqingyutang4.png" width="100%">
+</center>
+<div style="font-size: 0.85em; text-align: left;">
+Huqingyutang (胡庆余堂) clinics, which specialize in providing traditional Chinese medicine services.
+</div>
+
+<center>
+<img src="images/hefangjie3.png" width="100%">
+<img src="images/hefangjie4.png" width="100%">
+<img src="images/hefangjie5.png" width="100%">
+</center>
+
+<video width="100%" height="60%" controls>
+  <source src="Videos/hefangjie.mp4" type="video/mp4">
+</video>
+
+<div style="font-size: 0.85em; text-align: left;">
+Hefang Street (河坊街) offers an incredible variety of food, snacks and drinks.
+</div>
+
+<center>
+<img src="images/hefangjie6.png" width="100%">
+</center>
+
+<span style="font-size: 0.85em;">景阳观 (Jingyangguan): A renowned brand specializing in traditional Chinese pickled vegetables, commonly known as 酱菜.</span>
+
+
+
+<center>
+<img src="images/yangtangfandian1.png" width=100%>
+<img src="images/yangtangfandian2.png" width=100%>
+</center>
+
+<div style="font-size: 0.85em; text-align: left;">
+羊汤饭店 (Yang Tang Fan Dian), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup).
+</div>
 
