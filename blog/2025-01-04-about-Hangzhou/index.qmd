@@ -39,7 +39,7 @@ knitr::opts_chunk$set(
 </center>
 
 <div style="font-size: 0.85em; text-align: left;">
-Hefang Street (河坊街): A historic street blending cultural heritage with modern vibrancy.
+Hefang Street (河坊街): A historic street blending cultural heritage with modern vibrancy. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 
@@ -47,7 +47,7 @@ Hefang Street (河坊街): A historic street blending cultural heritage with mod
 <img src="images/huqingyutang1.png" width="100%">
 </center>
 <div style="font-size: 0.85em; text-align: left;">
-The outer wall of Huqingyutang (胡庆余堂): A renowned traditional Chinese medicine pharmacy.
+The outer wall of Huqingyutang (胡庆余堂): A renowned traditional Chinese medicine pharmacy. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 <center>
@@ -55,14 +55,14 @@ The outer wall of Huqingyutang (胡庆余堂): A renowned traditional Chinese me
 <img src="images/huqingyutang3.png" width="100%">
 </center>
 <div style="font-size: 0.85em; text-align: left;">
-The inside of Huqingyutang (胡庆余堂): It offers a diverse range of products including traditional Chinese medicines, health supplements, and herbal teas.
+The inside of Huqingyutang (胡庆余堂): It offers a diverse range of products including traditional Chinese medicines, health supplements, and herbal teas. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 <center>
 <img src="images/huqingyutang4.png" width="100%">
 </center>
 <div style="font-size: 0.85em; text-align: left;">
-Huqingyutang (胡庆余堂) clinics, which specialize in providing traditional Chinese medicine services.
+Huqingyutang (胡庆余堂) clinics, which specialize in providing traditional Chinese medicine services. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 <center>
@@ -76,7 +76,7 @@ Huqingyutang (胡庆余堂) clinics, which specialize in providing traditional C
 </video>
 
 <div style="font-size: 0.85em; text-align: left;">
-Hefang Street (河坊街) offers an incredible variety of food, snacks and drinks.
+Hefang Street (河坊街) offers an incredible variety of food, snacks and drinks. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 <center>
@@ -93,7 +93,7 @@ Hefang Street (河坊街) offers an incredible variety of food, snacks and drink
 </center>
 
 <div style="font-size: 0.85em; text-align: left;">
-羊汤饭店 (Yang Tang Fan Dian), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup).
+羊汤饭店 (Yang Tang Fan Dian), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup). Photo captured by Weisi on 4 Jan 2025.
 </div>
 
 ### Beishan St (北山街) | Lingering Snow on Broken Bridge (断桥残雪)<br> <一条北山街，半步民国史>
