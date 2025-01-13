@@ -1,6 +1,6 @@
 ---
 title: "About Hangzhou | 韵味杭州"
-description: "When the Old Meets the New | When the Nature Meets the City"
+description: "忆江南，最忆是杭州"
 date: '2025-01-04'
 image: "images/westlake1.png"
 categories:
@@ -26,9 +26,89 @@ knitr::opts_chunk$set(
 <center>
 <img src="images/westlake3.png" width=100%>
 </center>
+<span style="font-size: 0.85em;">Photo sourced online.</span>
+
+
 
 ### About Hangzhou
 **Hangzhou (杭州)** is the capital city of the Zhejiang providence. Nestled in the heart of eastern China, Hangzhou is a city where timeless charm meets vibrant modernity. Renowned for its breathtaking **West Lake (西湖)**, a symbol of natural beauty and serenity, Hangzhou has inspired poets and painters for centuries. Beyond its historic allure, the city thrives as a hub of innovation, home to global tech giant Alibaba and a burgeoning digital economy. With its harmonious blend of ancient temples, bustling markets, cutting-edge architecture, and verdant tea plantations, Hangzhou offers a captivating journey through history and progress.
+
+
+### Beishan St (北山街) | Lingering Snow on Broken Bridge<br> <一条北山街，半步民国史>
+**Beishan Street (北山街)** is a picturesque historic avenue that runs along the northern shore of the iconic West Lake. Known for its blend of natural beauty and cultural heritage, the street is lined with ancient trees, traditional Chinese architecture, and several historical sites, including former residences of notable figures and old temples. The area exudes a tranquil charm, making it a favorite spot for leisurely strolls, photography, and cultural exploration. Visitors often admire its cobblestone paths, scenic lake views, and the way it seamlessly combines modernity with history. Beishan Street is not just a thoroughfare but a journey into Hangzhou's rich past, offering a serene retreat from the city's bustling pace.
+
+<center>
+<img src="images/beishanjie1.png" width="100%">
+</center>
+
+<span style="font-size: 0.85em;">**北山街 (Beishan St) in the winter**. Photo captured by Weisi on the 7 Jan 2025.</span>
+
+<center>
+<img src="images/beishanjie2.png" width="100%">
+<img src="images/beishanjie3.png" width="100%">
+</center>
+
+<span style="font-size: 0.95em;">**北山街 (Beishan St)**, **保叔塔 (Boshu Pagoda)** in the winter. Photo captured by Weisi on 7 Jan 2025. The **保叔塔 (Boshu Pagoda)** is a historic and iconic landmark situated on **宝石山 (Precious Stone Hill)** near the northern shores of West Lake. Its origins trace back to **五代十国 (Five Dynasties and Ten Kingdoms) period**, build in 968. Historically, the pagoda served both a religious purpose - as a Buddhist structure, it symbolized blessings and peace. <br><br>
+Over the centuries, the **Baoshu Pagoda** has undergone multiple reconstructions due to damage from natural wear and conflicts. The most recent restoration was completed in the 20th century, ensuring its preservation for future generations.<br><br>
+The pagoda is renowned for its slender and elegant design, standing at 45.3 meters tall. Its architectural style is distinct, with a gracefully tapering structure that appears almost like a delicate needle pointing toward the sky. Hence, there is an old saying: "湖上两浮屠，宝石如美人，雷峰如老衲" ("The two pagodas on the lake, Baoshu like a beautiful woman, Leifeng like an old monk").<br><br>
+Today, the Baoshu Pagoda remains a beloved feature of Hangzhou's landscape, admired for its historical importance and the breathtaking views it offers of West Lake and the surrounding area. Its presence is a testament to the city's long-standing cultural and architectural achievements. </span>
+
+
+<center>
+<img src="images/duanqiao1.png" width="100%">
+<img src="images/duanqiao2.png" width="100%">
+<img src="images/duanqiao3.png" width="100%">
+</center>
+
+<span style="font-size: 0.95em;"> 
+**The Broken Bridge (断桥)** in the winter. Photo captured by Weisi on the 7 Jan 2025.<br>
+The Broken Bridge is located at the eastern end of Bai Causeway on the West Lake. One end connects to Beishan Road on the north shore of West Lake, while the other end leads to the **Mid-Lake Pavilion in the Autumn Moon over the Calm Lake (平湖秋月)** and the **Solitary Hill (孤山)**. The current bridge was rebuilt in 1921.<br><br>
+**The origin of the name "Broken Bridge"**<br>
+There are many legends about the origin of the name "Broken Bridge." One famous legend describes that after a winter snow, when viewed from Baoshi Hill to the south, West Lake is draped in silver, with Bai Causeway stretching across snow-covered willows and frosted peach trees. The stone arches of the Broken Bridge are exposed, with no cover or barriers, allowing the ice and snow to melt under the sunlight, while the ends of the bridge remain covered in bright white snow. The faintly visible stone bridge arches seem to appear and disappear, contrasting with the gray-brown bridge deck, creating an illusion of the bridge being broken. Thus, it is named the Broken Bridge. It is selected as one of the Ten Scenes of West Lake, named "**Lingering Snow on Broken Bridge (断桥残雪)**". <br><br>
+**Love Bridge**<br>
+The Broken Bridge in Hangzhou holds a special place in Chinese folklore as one of the "Three Love Bridges" and is famously associated with the legend **"The Legend of the White Snake" (白蛇传)**. According to the tale, it was on the Broken Bridge that Bai Niangzi (白娘子), a white snake spirit, and Xu Xian (许仙), a mortal man, first crossed paths. This chance meeting blossomed into a legendary romance that remains one of China's most cherished love stories.</span>
+
+### Bai Causeway (白堤) <br> <最爱湖东行不足，绿杨阴里白沙堤>
+<center>
+<img src="images/baidi.png" width="100%">
+</center>
+
+<span style="font-size: 0.85em;"> 
+Photo captured by Weisi on January 7, 2025. **Bai Causeway (白堤)** in winter—a picturesque path lined with willow trees swaying gracefully in the wind. This serene scene evokes the timeless beauty of spring, when the causeway comes alive with vibrant willow trees, blooming flowers, and elegant bridges. Inspired by such scenery, the renowned Tang Dynasty poet **Bai Juyi (白居易)** penned the famous poem 《钱塘湖春行》 (Spring Walk by Qiantang Lake):
+
+孤山寺北贾亭西，水面初平云脚低。<br>
+几处早莺争暖树，谁家新燕啄春泥。<br>
+乱花渐欲迷人眼，浅草才能没马蹄。<br>
+最爱湖东行不足，绿杨阴里白沙堤。<br>
+
+(To the north of Gushan Temple and west of Jia Pavilion, <br>
+The water surface just leveled, with clouds hanging low.<br>
+Early orioles vie for warm trees, while new swallows peck at spring mud.<br>
+Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br>
+I love strolling along the east side of the lake most,<br>
+Where green willows cast their shade over the white sandy causeway.) </span>
+
+### Nanshan Road (南山路) | Orioles Singing in the Willows 
+<center>
+  <img src="images/nanshanlu1.png" width="100%">
+</center>
+<div style="font-size: 0.85em; text-align: left;">
+  Nanshan Road (南山路) in the winter, a picturesque scene with its blend of green and red leaves. Photo captured by Weisi on 8 Jan 2025.
+</div>
+
+<center>
+  <img src="images/liulangwenying6.png" width="100%">
+</center>
+<div style="font-size: 0.85em; text-align: left;">
+The entry to the **"Orioles Singing in the Willows (柳浪闻莺)".** park, in the winter. Photo captured by Weisi on 8 Jan 2025. It is most beautiful in the sprint, where the gentle rustling of willow branches in the breeze and the melodious calls of orioles create a symphony of nature that enchants visitors.
+</div>
+<span style="font-size: 0.95em;"> 
+**Walking down memory lane...**<br>
+I spent two years at Hangzhou No. 4 High School, located at Wushan Square, just about five minutes from the southern shore of West Lake. Nearby lies one of the Ten Scenes of West Lake, **"Orioles Singing in the Willows (柳浪闻莺)".** During my second year of high school, when I was allowed to skip some classes to prepare for studying abroad, I often went there—whether I felt sad, happy, or simply bored. Entire afternoons would slip away as I sat amidst the beautiful scenery, doing nothing but soaking it all in.<br><br>
+Now, the 15-year-old high school student I once was is about to turn 30. I haven’t been back to Hangzhou in over six years, partly due to COVID and partly because of work and study commitments. Today, there’s even a subway line that goes directly from my home to Wushan Square. So much has changed—the shops and restaurants I once knew have all been replaced, and it took me some time to even locate my old high school. Yet, standing outside and watching students in their uniforms walk through the school gate, it felt as though time had rewound. Fifteen years ago, I was one of them.<br><br>
+When I strolled into the "Orioles Singing in the Willows" park, I was struck by how familiar it still felt. The scenery remained unchanged. It was surreal—almost like a dream. Had I really returned? So many things, both good and bad, had happened since those high school days. Memories of names and faces flooded my mind, even though most of those people are no longer part of my life. I couldn’t help but wonder what they were doing now—many of them must be married by this point.<br><br>
+My old favorite spot—a chair near the lake—was still there, empty and waiting. I sat down and let myself be carried away by nostalgia. Then, to my surprise, I saw a familiar face. It was one of my high school teachers, looking almost exactly as she had 15 years ago. I couldn’t recall her name or even the subject she taught, and I hesitated to say anything. She passed by without a word. I doubted she remembered me either—it had been 15 years, after all.</span>
+
 
 ### Hefang Street (河坊街)
 **Hefang Ancient Street (河坊街)** is one of Hangzhou’s oldest and most iconic streets, tracing its origins back to the Southern Song Dynasty and reaching its peak prosperity in the Qing Dynasty. It serves as a vibrant window into the city’s rich cultural heritage, where the echoes of history come alive amidst a bustling modern scene. This historic pedestrian street is adorned with beautifully preserved Qing Dynasty-style architecture and is a treasure trove of traditional crafts, local delicacies, and cultural charm. Among its highlights is **Huqingyutang(胡庆余堂)**, a renowned traditional Chinese medicine (TCM) pharmacy and museum established in 1874. Additionally, artisans craft intricate calligraphy brushes, delicate silk umbrellas, and other traditional goods, while food stalls offer classic Hangzhou treats like beggar’s chicken (叫花鸡) and sweet osmanthus cake (桂花糕). Hefang Ancient Street is a unique journey through time, blending the allure of the past with the vitality of the present.
@@ -83,7 +163,7 @@ Hefang Street (河坊街) offers an incredible variety of food, snacks and drink
 <img src="images/hefangjie6.png" width="100%">
 </center>
 
-<span style="font-size: 0.85em;">景阳观 (Jingyangguan): A renowned brand specializing in traditional Chinese pickled vegetables, commonly known as 酱菜.</span>
+<span style="font-size: 0.85em;">景阳观 (Jingyangguan): A renowned brand specializing in traditional Chinese pickled vegetables, commonly known as 酱菜. Photo captured by Weisi on 4 Jan 2025.</span>
 
 
 
@@ -96,43 +176,3 @@ Hefang Street (河坊街) offers an incredible variety of food, snacks and drink
 羊汤饭店 (Yang Tang Fan Dian), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup). Photo captured by Weisi on 4 Jan 2025.
 </div>
 
-### Beishan St (北山街) | Lingering Snow on Broken Bridge (断桥残雪)<br> <一条北山街，半步民国史>
-**Beishan Street (北山街)** is a picturesque historic avenue that runs along the northern shore of the iconic West Lake. Known for its blend of natural beauty and cultural heritage, the street is lined with ancient trees, traditional Chinese architecture, and several historical sites, including former residences of notable figures and old temples. The area exudes a tranquil charm, making it a favorite spot for leisurely strolls, photography, and cultural exploration. Visitors often admire its cobblestone paths, scenic lake views, and the way it seamlessly combines modernity with history. Beishan Street is not just a thoroughfare but a journey into Hangzhou's rich past, offering a serene retreat from the city's bustling pace.
-
-<center>
-<img src="images/beishanjie1.png" width="100%">
-</center>
-
-<span style="font-size: 0.85em;">**北山街 (Beishan St) in the winter**. Photo captured by Weisi on the 7 Jan 2025.</span>
-
-<center>
-<img src="images/beishanjie2.png" width="100%">
-<img src="images/beishanjie3.png" width="100%">
-</center>
-
-<span style="font-size: 0.95em;">**北山街 (Beishan St)**, **保叔塔 (Boshu Pagoda)** in the winter. Photo captured by Weisi on 7 Jan 2025. The **保叔塔 (Boshu Pagoda)** is a historic and iconic landmark situated on **宝石山 (Precious Stone Hill)** near the northern shores of West Lake. Its origins trace back to **五代十国 (Five Dynasties and Ten Kingdoms) period**, build in 968. Historically, the pagoda served both a religious purpose - as a Buddhist structure, it symbolized blessings and peace. <br><br>
-Over the centuries, the **Baoshu Pagoda** has undergone multiple reconstructions due to damage from natural wear and conflicts. The most recent restoration was completed in the 20th century, ensuring its preservation for future generations.<br><br>
-The pagoda is renowned for its slender and elegant design, standing at 45.3 meters tall. Its architectural style is distinct, with a gracefully tapering structure that appears almost like a delicate needle pointing toward the sky. Hence, there is an old saying: "湖上两浮屠，宝石如美人，雷峰如老衲" ("The two pagodas on the lake, Baoshu like a beautiful woman, Leifeng like an old monk").<br><br>
-Today, the Baoshu Pagoda remains a beloved feature of Hangzhou's landscape, admired for its historical importance and the breathtaking views it offers of West Lake and the surrounding area. Its presence is a testament to the city's long-standing cultural and architectural achievements. </span>
-
-
-
-### Bai Causeway (白堤) <br> <最爱湖东行不足，绿杨阴里白沙堤>
-<center>
-<img src="images/baidi.png" width="100%">
-</center>
-
-<span style="font-size: 0.85em;"> 
-Photo captured by Weisi on January 7, 2025. **Bai Causeway (白堤)** in winter—a picturesque path lined with willow trees swaying gracefully in the wind. This serene scene evokes the timeless beauty of spring, when the causeway comes alive with vibrant willow trees, blooming flowers, and elegant bridges. Inspired by such scenery, the renowned Tang Dynasty poet **Bai Juyi (白居易)** penned the famous poem 《钱塘湖春行》 (Spring Walk by Qiantang Lake):
-
-孤山寺北贾亭西，水面初平云脚低。<br>
-几处早莺争暖树，谁家新燕啄春泥。<br>
-乱花渐欲迷人眼，浅草才能没马蹄。<br>
-最爱湖东行不足，绿杨阴里白沙堤。<br>
-
-(To the north of Gushan Temple and west of Jia Pavilion, <br>
-The water surface just leveled, with clouds hanging low.<br>
-Early orioles vie for warm trees, while new swallows peck at spring mud.<br>
-Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br>
-I love strolling along the east side of the lake most,<br>
-Where green willows cast their shade over the white sandy causeway.) </span>
