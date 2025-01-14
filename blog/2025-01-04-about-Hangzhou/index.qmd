@@ -9,7 +9,7 @@ categories:
 format: 
   html:
     toc: true
-    toc-depth: 3  
+    toc-depth: 4  
 ---
 
 ```{r setup, include=FALSE}
@@ -46,14 +46,17 @@ So here it is—Hangzhou, my beloved city.
 
 
 ### Beishan St (北山街) | Lingering Snow on Broken Bridge<br> <一条北山街，半步民国史>
+
 **Beishan Street (北山街)** is a picturesque historic avenue that runs along the northern shore of the iconic West Lake. Known for its blend of natural beauty and cultural heritage, the street is lined with ancient trees, traditional Chinese architecture, and several historical sites, including former residences of notable figures and old temples. The area exudes a tranquil charm, making it a favorite spot for leisurely strolls, photography, and cultural exploration. Visitors often admire its cobblestone paths, scenic lake views, and the way it seamlessly combines modernity with history. Beishan Street is not just a thoroughfare but a journey into Hangzhou's rich past, offering a serene retreat from the city's bustling pace.
 
+#### **Beishan St (北山街)**
 <center>
 <img src="images/beishanjie1.png" width="100%">
 </center>
 
-<span style="font-size: 0.85em;">**北山街 (Beishan St)** in winter. It is most beautiful in autumn where the street is lined with vibrant red maple leaves 🍁. Photo captured by Weisi on the 7 Jan 2025.</span>
+<span style="font-size: 0.95em;">**北山街 (Beishan St)** in winter. It is most beautiful in autumn where the street is lined with vibrant red maple leaves 🍁. Photo captured by Weisi on the 7 Jan 2025.</span>
 
+#### **保叔塔 (Boshu Pagoda)**
 <center>
 <img src="images/beishanjie2.png" width="100%">
 <img src="images/beishanjie3.png" width="100%">
@@ -64,7 +67,7 @@ Over the centuries, the Baoshu Pagoda has undergone multiple reconstructions due
 The pagoda is renowned for its slender and elegant design, standing at 45.3 meters tall. Its architectural style is distinct, with a gracefully tapering structure that appears almost like a delicate needle pointing toward the sky. Hence, there is an old saying: "湖上两浮屠，宝石如美人，雷峰如老衲" ("The two pagodas on the lake, Baoshu like a beautiful woman, Leifeng like an old monk").<br><br>
 Today, the Baoshu Pagoda remains a beloved feature of Hangzhou's landscape, admired for its historical importance and the breathtaking views it offers of West Lake and the surrounding area. Its presence is a testament to the city's long-standing cultural and architectural achievements. </span>
 
-
+#### **Lingering Snow on Broken Bridge (断桥残雪)**
 <center>
 <img src="images/duanqiao1.png" width="100%">
 <img src="images/duanqiao2.png" width="100%">
@@ -80,6 +83,7 @@ There are many legends about the origin of the name "Broken Bridge." One famous 
 The Broken Bridge in Hangzhou holds a special place in Chinese folklore as one of the "Three Love Bridges" and is famously associated with the legend **"The Legend of the White Snake" (白蛇传)**. According to the tale, it was on the Broken Bridge that Bai Niangzi (白娘子), a white snake spirit, and Xu Xian (许仙), a mortal man, first crossed paths. This chance meeting blossomed into a legendary romance that remains one of China's most cherished love stories.</span>
 
 ### Solitary Hill (孤山) | Bai Causeway (白堤) <br> <绿杨阴里白沙堤>
+#### **Bai Causeway (白堤)**
 <center>
 <img src="images/baidi.png" width="100%">
 </center>
@@ -97,6 +101,22 @@ Early orioles vie for warm trees, while new swallows peck at spring mud.<br>
 Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br>
 I love strolling along the east side of the lake most,<br>
 Where green willows cast their shade over the white sandy causeway.) </span>
+
+#### **Xiling Bridge (西泠桥) & Su Xiaoxiao (苏小小)**
+<center>
+  <img src="images/xilingqiao1.png" width="100%">
+  <img src="images/xilingqiao2.png" width="100%">
+  <img src="images/xilingqiao3.png" width="100%">
+</center>
+
+<span style="font-size: 0.95em;"> 
+**Xiling Bridge (西泠桥)**: Leading to Beishan, with Bai Causeway is close by, and Su Causeway faintly visible. <br><br>
+**Love Bridge**<br>
+The ancient legend of **Su Xiaoxiao (苏小小)** unfolds here. Su Xiaoxiao was a Song Dynasty courtesan, born in Hangzhou. Her home was near Xicun. Su Xiaoxiao was intelligent, beautiful, talented, and dignified. Once, while traveling by carriage to enjoy the scenery at Bai Causeway, she encountered a young man named Ruan Yu (son of the prime minister of the Southern Qi Dynasty), who was slowly approaching on a green horse from the Broken Bridge. They fell in love at first sight. After Su Xiaoxiao's death, she was buried beside Xiling Bridge at Xiling Bank. Later generations built a **Mucai Pavilion (慕才亭)** on her tomb, and visitors passing by the bridge would pay their respects at her grave.<br>
+Photo captured by Weisi on 8 Jan 2025. 
+</span>
+
+
 
 ### Nanshan Rd (南山路) | Orioles Singing in the Willows 
 <center>    
@@ -116,7 +136,7 @@ Orioles Singing in the Willows (柳浪闻莺) park in winter. Photo captured by 
 </div>
 
 <div style="font-size: 0.95em; text-align: left;">
-**Walking down memory lane...**<br>
+#### **Walking down memory lane...**
 I spent two years at Hangzhou No. 4 High School, located at Wushan Square, just about five minutes from the southern shore of West Lake. Nearby lies one of the Ten Scenes of West Lake, **"Orioles Singing in the Willows (柳浪闻莺)".** During my second year of high school, when I was allowed to skip some classes to prepare for studying abroad, I often went there—whether I felt sad, happy, or simply bored. Entire afternoons would slip away as I sat amidst the beautiful scenery, doing nothing but soaking it all in.<br><br>
 Now, the 15-year-old high school student I once was is about to turn 30. I haven’t been back to Hangzhou in over six years, partly due to COVID and partly because of work and study commitments. Today, there’s even a subway line that goes directly from my home to Wushan Square. So much has changed—the shops and restaurants I once knew have all been replaced, and it took me some time to even locate my old high school. Yet, standing outside and watching students in their uniforms walk through the school gate, it felt as though time had rewound. Fifteen years ago, I was one of them.<br><br>
 When I strolled into the "Orioles Singing in the Willows" park, I was struck by how familiar it still felt. The scenery remained unchanged. It was surreal—almost like a dream. Had I really returned? So many things, both good and bad, had happened since those high school days. Memories of names and faces flooded my mind, even though most of those people are no longer part of my life. I couldn’t help but wonder what they were doing now—many of them must be married by this point.<br><br>
@@ -134,6 +154,7 @@ My old favorite spot—a chair near the lake—was still there, empty and waitin
 Hand-rowed boat parked at the West Lake. Photo captured by Weisi on 8 Jan 2025. One of the most cherished activities at West Lake is enjoying a leisurely ride on a hand-rowed boat, gently drifting across its serene waters.
 </div>
 
+#### **Juxian Pavilion (集贤亭)**
 <center>    
   <img src="images/hubin4.png" width="100%">
   <img src="images/hubin5.png" width="100%">
@@ -144,12 +165,13 @@ Hand-rowed boat parked at the West Lake. Photo captured by Weisi on 8 Jan 2025. 
 Today, Juxian Pavilion is a popular destination where people gather to enjoy the scenic views and capture stunning photos, especially at sunset. It is at its most beautiful in summer, surrounded by the vibrant blooms of nearby lotus flowers.
 </div>
 
+#### **First Park (一公园)**
 <video width="100%" height="60%" controls>
   <source src="Videos/hubin.mp4" type="video/mp4">
 </video>
 **一公园(Yi Gongyuan), or "First Park"**, is a well-known and historic public situated near the bustling lakeside area of West Lake. Its prime location makes it a favorite destination for morning exercise, singing and dancing, social gatherings, and soaking in the picturesque views of West Lake.
 
-
+#### **Yongjin Pool (涌金池)**
 <center>    
   <img src="images/hubin6.png" width="100%">
   <img src="images/hubin7.png" width="100%" height="50%">
@@ -174,7 +196,7 @@ The first photo is captured by Weisi on 6 Jan 2025. The second photo is sourced 
 Hefang Street (河坊街): A historic street blending cultural heritage with modern vibrancy. Photo captured by Weisi on 4 Jan 2025.
 </div>
 
-
+#### **Huqingyutang (胡庆余堂) pharmacy**
 <center>
 <img src="images/huqingyutang1.png" width="100%">
 </center>
@@ -215,6 +237,7 @@ Hefang Street (河坊街) offers an incredible variety of food, snacks and drink
 <img src="images/hefangjie6.png" width="100%">
 </center>
 
+#### **景阳观 (Jingyangguan)**
 <span style="font-size: 0.95em;">景阳观 (Jingyangguan): A renowned brand specializing in traditional Chinese pickled vegetables, commonly known as 酱菜. Photo captured by Weisi on 4 Jan 2025.</span>
 
 
@@ -224,7 +247,8 @@ Hefang Street (河坊街) offers an incredible variety of food, snacks and drink
 <img src="images/yangtangfandian2.png" width=100%>
 </center>
 
+#### **羊汤饭店 (Yang Tang Restaurant)**
 <div style="font-size: 0.95em; text-align: left;">
-羊汤饭店 (Yang Tang Fan Dian), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup). Photo captured by Weisi on 4 Jan 2025.
+羊汤饭店 (Yang Tang Restaurant), established in 1788 during the 53rd year of Emperor Qianlong's reign, is one of Hangzhou's oldest and most esteemed culinary establishments. When the Manchus arrived in Hangzhou, they avoided pork and instead opened a lamb-focused restaurant, which became known for its lamb-centric dishes. The restaurant's signature offerings include 羊肉烧卖 (Lamb Shaomai) and 羊杂汤 (Lamb Offal Soup). Photo captured by Weisi on 4 Jan 2025.
 </div>
 
