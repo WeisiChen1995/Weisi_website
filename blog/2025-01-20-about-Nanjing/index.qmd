@@ -1,0 +1,26 @@
+---
+title: "About Nanjing | 金陵印象"
+description: "<一座金陵城，半部明国史>"
+date: '2025-01-20'
+image: "images/nanjing.png"
+categories:
+  - About Nanjing
+  - 金陵城
+format: 
+  html:
+    toc: true
+    toc-depth: 4  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3,
+  R.options = list(width = 60)
+)
+```
