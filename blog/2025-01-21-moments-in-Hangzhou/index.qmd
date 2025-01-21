@@ -1,0 +1,35 @@
+---
+title: "Moments in Hangzhou"
+description: "Things must do in Hangzhou"
+date: '2025-01-21'
+image: "images/sunset.png"
+categories:
+  - Moments in Hangzhou
+format: 
+  html:
+    toc: true
+    toc-depth: 4  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3,
+  R.options = list(width = 60)
+)
+```
+
+
+### Things must do in Hangzhou
+#### 1. Wait for sunset at the lakeside 🌅
+
+<video width="100%" height="60%" controls>
+  <source src="Videos/moments_in_hangzhou.mp4" type="video/mp4">
+</video>
+
+A video captured by Weisi at Yongjinmen, located on the southern shore of West Lake.
