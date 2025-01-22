@@ -120,6 +120,7 @@ Beyond its mastery of duck, Nanjing is also famous for its diverse dumpling offe
 <img src="images/nanjing_food1.png" width="100%">
 </center>
 <br>
+
 ##### - **Duck Blood Vermicelli Soup**
 <center>
 <img src="images/nanjing_food2.png" width="100%">
