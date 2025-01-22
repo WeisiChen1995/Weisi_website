@@ -46,6 +46,10 @@ A video captured by Weisi at Yongjinmen on 20 Jan 2025, located on the southern 
   <source src="Videos/gushan_moment.mp4" type="video/mp4">
 </video>
 
+<video width="100%" height="60%" controls>
+  <source src="Videos/gushan_moment2.mp4" type="video/mp4">
+</video>
+
 A video captured by Weisi at Gushan on 20 Jan 2025, located on the northern shore of West Lake.
 
 
