@@ -28,7 +28,7 @@ Born and raised in Hangzhou, I spent eighteen years there before moving to Sydne
 
 Due to COVID restrictions and work and study commitments, I hadn’t been home in six years. When I finally returned, I was struck by a profound sense of alienation. Familiar restaurants and shops near my home had disappeared. The large square where people once gathered to dance, socialize, and sing had been replaced by two sprawling shopping malls. The city itself had transformed—its subway system had expanded from just two lines six years ago to eight lines, now covering almost every corner. Towering high-rises filled the cityscape, one after another, creating a stark contrast to the Hangzhou I once knew.
 
-Yet, amidst all these changes, West Lake remained the same. Walking along its shores, I was once again captivated by its timeless beauty and serenity. Some say Hangzhou is defined by just one lake, but to me, its charm lies in so much more—the natural landscapes, cultural and historical heritage, poetry, and art. It’s no wonder Bai Juyi, the renowned Tang dynasty poet, once wrote: “When I recall the south of the Yangtze River, Hangzhou comes foremost to my mind” (忆江南，最忆是杭州).
+Yet, amidst all these changes, West Lake remained the same. Walking along its shores, I was once again captivated by its timeless beauty and serenity. Some say Hangzhou is defined by just one lake, but to me, its charm lies in so much more—the natural landscapes, cultural and historical heritage, poetry, art，and so many more. It’s no wonder Bai Juyi, the renowned Tang dynasty poet, once wrote: “When I recall the south of the Yangtze River, Hangzhou comes foremost to my mind” (忆江南，最忆是杭州).
 
 So here it is—Hangzhou, my hometown and my beloved city.
 
@@ -49,7 +49,7 @@ A video captured by Weisi at Yongjinmen on 20 Jan 2025, located on the southern 
 A video captured by Weisi at Gushan on 20 Jan 2025, located on the northern shore of West Lake.
 
 
-#### 3. Go to the Beishan street and see the red maple leaves 🍁 in autumn. 
+#### 3. Go to Beishan street and see the red maple leaves 🍁 in autumn. 
 <video width="100%" height="60%" controls>
   <source src="Videos/beishan_moment.mp4" type="video/mp4">
 </video>
