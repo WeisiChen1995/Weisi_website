@@ -38,6 +38,6 @@ If given the chance, I would love to return to Nanjing again: to see the red wal
   <source src="Videos/yinyuetai.mp4" type="video/mp4">
 </video>
 
-A video captured by Weisi at Sun Yat-sen Mausoleum Music Stage on 16 Jan 2025. 
-A flock of doves soaring through the sky is a romance unique to Nanjing. 
+A video captured by Weisi at Sun Yat-sen Mausoleum Music Stage on 16 Jan 2025.<br>
+A flock of doves soaring through the sky is a romance unique to Nanjing. <br>
 Doves are free, and so are we.
