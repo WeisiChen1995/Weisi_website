@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-Nanjing, a city that fulfill all my definitions of a "perfect city." With the lens of the China's ancient capital of Six Dynasties, a collision of feudalism and democracy. It was also the first city I traveled to alone as an adult on an impromptu trip. Revisiting Nanjing twelve years later, I resonate even more deeply with what an old friend told me back then: "I really like Nanjing, and I hope to stay here."
+Nanjing, a city that satisfies all my definitions of a "perfect city." With the lens of the China's ancient capital of Six Dynasties, a collision of feudalism and democracy. It was also the first city I traveled to alone as an adult on an impromptu trip. Revisiting Nanjing twelve years later, I resonate even more deeply with what an old friend told me back then: "I really like Nanjing, and I hope to stay here."
 
 Some say Nanjing is a melancholic city, bearing the scars of the eras that have shaped it. It has witnessed the rise and fall of dynasties, cycling through prosperity and devastation. From the grinding edge of hardship, it has emerged resilient, transformed through the trials of war, and settled into a state of gentle warmth and depth.
 
