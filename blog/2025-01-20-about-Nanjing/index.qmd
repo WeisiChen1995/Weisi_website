@@ -1,6 +1,6 @@
 ---
 title: "About Nanjing | 金陵印象"
-description: "Nanjing impression"
+description: "Nanjing Impression"
 date: '2025-01-20'
 image: "images/nanjing.png"
 categories:
@@ -41,3 +41,16 @@ If given the chance, I would love to return to Nanjing again: to see the red wal
 A video captured by Weisi at Sun Yat-sen Mausoleum Music Stage on 16 Jan 2025.<br>
 A flock of doves soaring through the sky is a romance unique to Nanjing. <br>
 Doves are free, and so are we.
+
+#### 2. Red walls of Imperial Tombs of the Ming and Qing Dynasties paired with wintersweet blossoms
+<center>
+<img src="images/mingxiaoling1.png" width="100%">
+<img src="images/mingxiaoling4.png" width="100%">
+<img src="images/mingxiaoling5.png" width="100%">
+<img src="images/mingxiaoling6.png" width="100%">
+</center>
+
+<center>
+<img src="images/mingxiaoling7.png" width="100%">
+</center>
+The stone statue avenue is part of the Sacred Way leading to the tomb, lined with an array of lifelike stone sculptures, including lions, elephants, mythical beasts like qilin, and statues of civil and military officials. 
