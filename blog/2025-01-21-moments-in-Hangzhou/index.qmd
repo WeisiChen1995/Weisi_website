@@ -83,8 +83,14 @@ Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.
 I love strolling along the east side of the lake most,<br>
 Where green willows cast their shade over the white sandy causeway.) </span>
 
+#### 5. Take a boat tour around West Lake 🚤.
+<video width="100%" height="60%" controls>
+  <source src="Videos/boat_moment.mp4" type="video/mp4">
+</video>
 
-#### 5. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
+Filmed by Weisi on a boat around West Lake on 23 Jan 2025, passing Beishan street, Broken Bridge and Bai Causeway. 
+
+#### 6. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
 <center>
 <img src="images/hefangjie1.png" width="100%">
 <img src="images/hefangjie2.png" width="100%">
