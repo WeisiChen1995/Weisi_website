@@ -4,8 +4,7 @@ description: "Nanjing Impression"
 date: '2025-01-20'
 image: "images/nanjing.png"
 categories:
-  - About Nanjing
-  - Travel in Nanjing
+  - Nanjing
 format: 
   html:
     toc: true

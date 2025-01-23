@@ -4,7 +4,7 @@ description: "<忆江南，最忆是杭州>"
 date: '2025-01-21'
 image: "images/sunset.png"
 categories:
-  - Moments in Hangzhou
+  - Hangzhou
 format: 
   html:
     toc: true
@@ -41,6 +41,13 @@ So here it is—Hangzhou, my hometown and my beloved city.
 
 Filmed by Weisi at Yongjinmen on 20 Jan 2025, located on the southern shore of West Lake.
 
+<video width="100%" height="60%" controls>
+  <source src="Videos/sunset_moment2.mp4" type="video/mp4">
+</video>
+
+Filmed by Weisi at Jixian Pavilion on 23 Jan 2025.
+
+
 #### 2. Visit the so-called 'most beautiful corner' of Gushan.
 <video width="100%" height="60%" controls>
   <source src="Videos/gushan_moment.mp4" type="video/mp4">
@@ -56,8 +63,28 @@ Filmed by Weisi at Gushan on 20 Jan 2025, located on the northern shore of West 
 
 Filmed by Weisi at Beishan street on 7 Jan 2025, located on the northern shore of West Lake.
 
+#### 4. Go to Bai Causeway and see the willow trees swaying gracefully in the wind 🍃. 
 
-#### 4. Go to Hefang ancient street to witness the bustling prosperity of the marketplace.
+<video width="100%" height="60%" controls>
+  <source src="Videos/baidi_moment.mp4" type="video/mp4">
+</video>
+
+Filmed by Weisi at Bai Causeway on 23 Jan 2025, located on the northern shore of West Lake. <br>
+Bai Causeway is a picturesque path lined with willow trees swaying gracefully in the wind. This serene scene evokes the timeless beauty of spring, when the causeway comes alive with vibrant willow trees, blooming flowers, and elegant bridges. Inspired by such scenery, the renowned Tang Dynasty poet Bai Juyi penned the famous poem 《钱塘湖春行》 (Spring Walk by Qiantang Lake):
+
+孤山寺北贾亭西，水面初平云脚低。<br>
+几处早莺争暖树，谁家新燕啄春泥。<br>
+乱花渐欲迷人眼，浅草才能没马蹄。<br>
+最爱湖东行不足，绿杨阴里白沙堤。<br><br>
+(To the north of Gushan Temple and west of Jia Pavilion, <br>
+The water surface just leveled, with clouds hanging low.<br>
+Early orioles vie for warm trees, while new swallows peck at spring mud.<br>
+Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br>
+I love strolling along the east side of the lake most,<br>
+Where green willows cast their shade over the white sandy causeway.) </span>
+
+
+#### 5. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
 <center>
 <img src="images/hefangjie1.png" width="100%">
 <img src="images/hefangjie2.png" width="100%">
