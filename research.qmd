@@ -36,6 +36,7 @@ pubs <- get_pubs()
 `r htmltools::HTML(paste0(icon_link(icon = "ai ai-google-scholar", text = "Google Scholar", url  = "https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/"), icon_link(icon = "ai ai-researchgate", text = "Research Gate", url = "https://www.researchgate.net/profile/Weisi-Chen-3")))`
 
 </center>
+<br>
 
 ## Peer-Reviewed Journal Articles
 
