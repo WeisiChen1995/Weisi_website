@@ -10,17 +10,30 @@ execute:
 
 Welcome to my personal website! I am currently a data scientist working at the university of New South Wales (UNSW), Sydney, Australia.I am passionate about technology, programming, data analysis, data visualization and statistical modelling.See my [CV](https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf) for more details. 
 
-## Education
+## Education & Training
 
 **Sept 2021 - March 2023**: University of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
 
 **March 2015 - March 2019**: University of Sydney, B.S Pharmacy
 
-## Experience
+## Employment History
 
-**July 2023 - Present**: **The university of New South Wales (UNSW)**, Sydney, NSW <br> Data scientist, School of population health
+### <u style="font-size: smaller;">Research-focused Positions</u>
 
-**Feb 2023 - Dec 2023**: **The university of Sydney**, Sydney, NSW <br> Data scientist/Research officer, School of pharmacy
+**July 2023 - Present**: **University of New South Wales (UNSW)**, Sydney, NSW <br> Data scientist, School of population health
 
-**March 2023 - Present**: Sydney, NSW <br> Registered pharmacist
+**Feb 2023 - Dec 2023**: **University of Sydney**, Sydney, NSW <br> Data scientist/Research officer, School of pharmacy
+
+### <u style="font-size: smaller;">Clinical-focused Positions</u>
+
+**Mar 2021 - Dec 2024**: **Bondi Junction Pharmacy**, Sydney, NSW <br> Pharmacist in charge (FTE 0.2)
+
+**Mar 2021 - Dec 2024**: **Blooms the Chemist Bondi Junction**, Sydney, NSW <br>
+Pharmacist on duty (FTE 0.4)
+
+**Mar 2020 - Sept 2020**: **Chemist Warehouse Double Bay**, Sydney, NSW <br>
+Registered Pharmacist
+
+**Dec 2018 - Mar 2020**: **Chemist Warehouse Randwick**, Sydney, NSW <br>
+Graduate Intern Pharmacist
 
