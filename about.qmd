@@ -12,9 +12,9 @@ Welcome to my personal website! I am currently a data scientist working at the u
 
 ## Education
 
-**March 2023**: University of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
+**Sept 2021 - March 2023**: University of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
 
-**March 2019**: University of Sydney, B.S Pharmacy
+**March 2015 - March 2019**: University of Sydney, B.S Pharmacy
 
 ## Experience
 
