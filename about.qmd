@@ -8,13 +8,13 @@ execute:
   warning: false
 ---
 
-Welcome to my personal website! I am a pharmacist and data analyst based in Sydney, Australia. I am currently a data analyst working at the university of New South Wales (UNSW).I am passionate about programming, data analysis, data visualization and statistical modelling.See my [CV](https://github.com/WeisiChen1995/Weisi_CV/blob/main/cv-wc.pdf) for more details. 
+Welcome to my personal website! I am currently a data scientist working at the university of New South Wales (UNSW), Sydney, Australia.I am passionate about technology, programming, data analysis, data visualization and statistical modelling.See my [CV](https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf) for more details. 
 
 ## Education
 
-**March 2023**: The university of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
+**March 2023**: University of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
 
-**March 2019**: The university of Sydney, B.S Pharmacy
+**March 2019**: University of Sydney, B.S Pharmacy
 
 ## Experience
 
