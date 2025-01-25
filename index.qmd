@@ -23,8 +23,7 @@ about:
 ### Welcome to my personal website!
 Born and raised in [Hangzhou, China](https://weisichen1995.github.io/Weisi_website/blog/2025-01-21-moments-in-Hangzhou/), I moved to Sydney, Australia in 2015 to pursue university studies. I am a highly disciplined and hard-working individual with a strong passion for technology, programming, data analysis, data visualization, and statistical modeling. With a background in pharmacy and health data science, I am interested in population-level analysis using linked health data. My expertise lies in uncovering meaningful insights from complex datasets, driven by a commitment to improving health outcomes. I thrive on tackling challenging problems with analytical precision and creativity, always striving to deliver impactful results in every project I undertake.
 
-I am proficient in statistical software such as R and SAS, and have extensive experience using these tools for data analysis, visualization, and statistical modelling. I am deeply committed to continuous learning and professional development,
-always eager to explore new packages, techniques, or skills that can enhance my ability to analyze data effectively and deliver meaningful insights.
+I am proficient in statistical software such as R and SAS, and have extensive experience using these tools for data analysis, visualization, and statistical modelling. I am deeply committed to continuous learning and professional development, always eager to explore new packages, techniques, or skills that can enhance my ability to analyze data effectively and deliver meaningful insights.
 
 I am currently a data scientist working at the university of New South Wales (UNSW) in Sydney, Australia.  In my free time, I enjoy reading, photography, exploring cities on foot, traveling, learning/exploring new things and cherishing moments with family and friends.
 
