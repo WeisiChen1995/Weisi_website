@@ -1,10 +1,10 @@
 ---
 title: "Happy Chinese New Year 2025!!!"
-description: "...Inspired by the beautifully adorned streets with lanterns strung along the streetlights 🏮 that I saw on my way to Xiaoshan International Airport..."
+description: "...Inspired by the beautifully adorned streets with red lanterns 🏮 strung along the streetlights that I saw on my way to Hangzhou Xiaoshan International Airport..."
 date: '2025-01-25'
 image: "images/lantern.png"
 categories:
-  - 
+  - Happy Chinese New Year 2025!
 format: 
   html:
     toc: true
@@ -32,7 +32,9 @@ library(tibble)
 ```
 
 
-Another year of being unable to spend Spring Festival with my family. Honestly, I can't even remember the last time I celebrated Spring Festival with them in Hangzhou. This time, leaving home for the airport felt especially heartbreaking. On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with lanterns strung along the streetlights. Inspired by this enchanting sight...
+Another year of being unable to spend Spring Festival with my family. Honestly, I can't even remember the last time I celebrated Spring Festival with them in Hangzhou. This time, leaving home for the airport felt especially heartbreaking. <br>
+
+On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with lanterns strung along the streetlights. Inspired by this enchanting sight...
 
 
 ```{r, echo=FALSE}
@@ -371,5 +373,4 @@ lanterns_plot <- ggplot() +
   # Add the "Happy Chinese New Year!" message at the top
   annotate("text", x = 0, y = 2.5, label = "Happy Chinese New Year 2025!!!", size = 14, color = "gold", fontface = "bold", hjust = 0.5)
 
-lanterns_plot
 ```
