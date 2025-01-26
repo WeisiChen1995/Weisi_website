@@ -35,9 +35,9 @@ library(tibble)
 Another year of being unable to spend the Spring Festival with my family. This time, leaving home for the airport felt especially heartbreaking.
 
 On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with red lanterns 🏮 strung along the 
-streetlights. Inspired by this enchanting sight…
+streetlights. Inspired by this enchanting sight...
 
-Home is where the heart is️ ❤️.
+...Home is where the heart is️ ❤️.
 
 
 ```{r, echo=FALSE}
