@@ -4,7 +4,7 @@ description: "...Inspired by the sight of red lanterns 🏮 strung along the str
 date: '2025-01-25'
 image: "images/lantern.png"
 categories:
-  - Happy Chinese New Year 2025!
+  - Happy CNY 2025 🎉🧧!
 format: 
   html:
     toc: true
