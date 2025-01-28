@@ -25,17 +25,17 @@ knitr::opts_chunk$set(
 ```
 
 
-```{r read packages, include = FALSE}
+```{r include = FALSE}
 library(ggplot2)
 library(dplyr)
 library(tibble)
 ```
 
 
-Another year of being unable to spend the Spring Festival with my family. This time, leaving home for the airport felt especially heartbreaking.
+Another year of being unable to spend the Spring Festival with my family due to other commitments. I always feel heartbreaking leaving home for the airport.
 
 On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with red lanterns 🏮 strung along the 
-streetlights. Inspired by this enchanting sight...
+streetlights. Inspired by this enchanting sight, I made the below figure in R during the flight (with the help of ChatGPT of course!)...
 
 ...Home is where the heart is️ ❤️.
 
@@ -209,6 +209,12 @@ print(lanterns_plot)
 ```
 
 #### Source code for creating the above figure:
+
+```{r read packages}
+library(ggplot2)
+library(dplyr)
+library(tibble)
+```
 
 ##### Step 1: Create a red lantern by coding all the components that make up the lantern.
 ```{r echo=TRUE, results='hide'}
