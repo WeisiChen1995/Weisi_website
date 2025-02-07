@@ -1,6 +1,6 @@
 ---
 title: "Happy Chinese New Year 2025!!!"
-description: "...Inspired by the sight of red lanterns 🏮 strung along the streetlights on my way to Hangzhou Xiaoshan International Airport..."
+description: "...Inspired by the sight of red lanterns strung along the streetlights on my way to Hangzhou Xiaoshan International Airport..."
 date: '2025-01-25'
 image: "images/lantern.png"
 categories:
@@ -34,7 +34,7 @@ library(tibble)
 
 Another year of being unable to spend the Spring Festival with my family due to other commitments. I always feel heartbreaking leaving home for the airport.
 
-On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with red lanterns 🏮 strung along the 
+On my way to Hangzhou Xiaoshan International Airport, the streets were beautifully adorned with red lanterns strung along the 
 streetlights. Inspired by this enchanting sight, I made the below figure in R during the flight (with the help of ChatGPT😁)...
 
 ...Home is where the heart is️ ❤️.
