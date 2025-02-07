@@ -89,20 +89,14 @@ The renowned Tang Dynasty poet Bai Juyi penned the famous poem 《钱塘湖春�
 
 (To the north of Gushan Temple and west of Jia Pavilion, <br> The water surface just leveled, with clouds hanging low.<br> Early orioles vie for warm trees, while new swallows peck at spring mud.<br> Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br> I love strolling along the east side of the lake most,<br> Where green willows cast their shade over the white sandy causeway.)
 
-#### 6. Go to Jingci Temple to listen to the evening bell 🔔 of Nanping Hill and gaze at Leifeng Pagoda from afar.
-<center>
-<img src="images/jingcishi1.png" width="100%">
-<img src="images/jingcishi2.png" width="100%">
-</center>
-
-#### 7. Take a boat tour 🚤 around West Lake.
+#### 6. Take a boat tour 🚤 around West Lake.
 <video width="100%" height="60%" controls>
   <source src="Videos/boat_moment.mp4" type="video/mp4">
 </video>
 
 Filmed by Weisi on a boat tour around West Lake on 23 Jan 2025, passing Beishan street, Broken Bridge and Bai Causeway. 
 
-#### 8. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
+#### 7. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
 <center>
 <img src="images/hefangjie1.png" width="100%">
 <img src="images/hefangjie2.png" width="100%">
