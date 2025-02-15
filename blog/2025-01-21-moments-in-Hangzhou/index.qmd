@@ -64,9 +64,17 @@ Filmed by Weisi at Gushan on 20 Jan 2025.
   <source src="Videos/beishan_moment.mp4" type="video/mp4">
 </video>
 
+Filmed by Weisi at Beishan street (near Broken Bridge) on 20 Jan 2025.
+
+
+#### 4. Go to Broken Bridge to listen to the love story of Xu Xian and Bai Suzhen 💝
+<video width="100%" height="60%" controls>
+  <source src="Videos/broken_bridge.mp4" type="video/mp4">
+</video>
+
 Filmed by Weisi at Beishan street on 7 Jan 2025.
 
-#### 4. Take some photos at the beautiful Jixian Pavilion 𠅘.
+#### 5. Take some photos at the beautiful Jixian Pavilion 𠅘.
 <center>
 <img src="images/jixianting1.png" width="100%">
 <img src="images/jixianting2.png" width="100%">
@@ -75,7 +83,7 @@ Filmed by Weisi at Beishan street on 7 Jan 2025.
 
 Photos taken by Weisi & Danica at Jixian Pavilion on 24 Jan 2025.
 
-#### 5. Go to Bai Causeway and see the willow trees swaying gracefully in the wind 🍃.
+#### 6. Go to Bai Causeway and see the willow trees swaying gracefully in the wind 🍃.
 <center>
 <img src="images/baidi.png" width="100%">
 <img src="images/baidi2.png" width="100%">
@@ -83,20 +91,15 @@ Photos taken by Weisi & Danica at Jixian Pavilion on 24 Jan 2025.
 
 Photo taken by Weisi at Bai Causeway on 23 Jan 2025. <br> 
 
-The renowned Tang Dynasty poet Bai Juyi penned the famous poem 《钱塘湖春行》 (Spring Walk by Qiantang Lake) here:</p>
 
-孤山寺北贾亭西，水面初平云脚低。<br> 几处早莺争暖树，谁家新燕啄春泥。<br> 乱花渐欲迷人眼，浅草才能没马蹄。<br> 最爱湖东行不足，绿杨阴里白沙堤。<br><br> 
-
-(To the north of Gushan Temple and west of Jia Pavilion, <br> The water surface just leveled, with clouds hanging low.<br> Early orioles vie for warm trees, while new swallows peck at spring mud.<br> Wildflowers almost dazzle the eyes, and tender grass barely covers horse hooves.<br> I love strolling along the east side of the lake most,<br> Where green willows cast their shade over the white sandy causeway.)
-
-#### 6. Take a boat tour 🚤 around West Lake.
+#### 7. Take a boat tour 🚤 around West Lake.
 <video width="100%" height="60%" controls>
   <source src="Videos/boat_moment.mp4" type="video/mp4">
 </video>
 
 Filmed by Weisi on a boat tour around West Lake on 23 Jan 2025, passing Beishan street, Broken Bridge and Bai Causeway. 
 
-#### 7. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
+#### 8. Go to Hefang ancient street to witness the bustling prosperity of the marketplace 🍜🍛🍲🥟.
 <center>
 <img src="images/hefangjie1.png" width="100%">
 <img src="images/hefangjie2.png" width="100%">
