@@ -1,5 +1,5 @@
 ---
-title: "Moments in Hangzhou | 忆杭州"
+title: "Moments in Hangzhou | 忆钱塘"
 description: "<忆江南，最忆是杭州>"
 date: '2025-01-21'
 image: "images/sunset.png"
@@ -64,7 +64,7 @@ Filmed by Weisi at Gushan on 20 Jan 2025.
   <source src="Videos/beishan_moment.mp4" type="video/mp4">
 </video>
 
-Filmed by Weisi at Beishan street (near Broken Bridge) on 20 Jan 2025.
+Filmed by Weisi at Beishan street on 20 Jan 2025.
 
 
 #### 4. Go to Broken Bridge to listen to the love story of Xu Xian and Bai Suzhen 💝
@@ -72,7 +72,7 @@ Filmed by Weisi at Beishan street (near Broken Bridge) on 20 Jan 2025.
   <source src="Videos/broken_bridge.mp4" type="video/mp4">
 </video>
 
-Filmed by Weisi at Beishan street on 7 Jan 2025.
+Filmed by Weisi at Beishan street (near Broken Bridge) on 7 Jan 2025.
 
 #### 5. Take some photos at the beautiful Jixian Pavilion 𠅘.
 <center>
