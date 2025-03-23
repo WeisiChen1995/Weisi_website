@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ad6542725e80d1433b1f8ee26c2a1fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -104,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Project</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./blog/index.html"> 
 <span class="menu-text">My blog</span></a>
   </li>  
@@ -170,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="me">
 <section id="welcome-to-my-personal-website" class="level3">
 <h3 data-anchor-id="welcome-to-my-personal-website">Welcome to my personal website!</h3>
-<p>Born and raised in <a href="https://weisichen1995.github.io/Weisi_website/blog/2025-01-21-moments-in-Hangzhou/">Hangzhou, China</a>, I moved to Sydney, Australia in 2015 to pursue university studies. I am a highly disciplined and hard-working individual with a strong passion for technology, programming, data analysis, data visualization, and statistical modeling. With a background in pharmacy and health data science, I am interested in population-level analysis using linked health data. My expertise lies in uncovering meaningful insights from complex datasets, driven by a commitment to improving health outcomes. I thrive on tackling challenging problems with analytical precision and creativity, always striving to deliver impactful results in every project I undertake.</p>
-<p>I am currently a data scientist working at the university of New South Wales (UNSW) in Sydney, Australia. In my free time, I enjoy reading, photography, exploring cities on foot, traveling, learning/exploring new things and cherishing moments with family and friends.</p>
+<p>Born and raised in <a href="https://weisichen1995.github.io/Weisi_website/blog/2025-01-21-moments-in-Hangzhou/">Hangzhou, China</a>, I moved to Sydney, Australia in 2015 to pursue university studies. I am a highly disciplined and hard-working individual with a strong passion for technology, programming, data analysis, data visualization, and statistical modeling. With a background in pharmacy and health data science, I am interested in population-level analysis using linked health data.</p>
+<p>In my free time, I enjoy reading, photography, exploring cities on foot, traveling, learning/exploring new things and cherishing moments with family and friends.</p>
 
 
 </section>
@@ -254,8 +250,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -366,7 +360,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
