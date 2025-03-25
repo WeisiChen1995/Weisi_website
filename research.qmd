@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: With a background in both pharmacy and health data science, I specialize in extracting actionable insights from complex health/medical datasets. My current interest lies in population-level analysis using linked data to drive informed health decisions and support evidence-based strategies.
+description: With a background in both pharmacy and health data science, I specialize in extracting actionable insights from complex health administrative datasets. My current interest lies in population-level analysis using linked data.
 execute: 
   echo: false
   message: false

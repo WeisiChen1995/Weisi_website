@@ -8,11 +8,12 @@ execute:
   warning: false
 ---
 
-Welcome to my personal website! I am currently a data scientist working at the university of New South Wales (UNSW), Sydney, Australia.I am passionate about technology, programming, data analysis, data visualization and statistical modelling.See my [CV](https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf) for more details. 
+Welcome to my personal website! 
+
 
 ## Education & Training
 
-**Sept 2021 - Mar 2023**: The University of New South Wales (UNSW), M.S Health data science, WAM 88 (HD) <br> *Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV*
+**Sept 2021 - Mar 2023**: The University of New South Wales (UNSW), M.S Health data science
 
 **Mar 2015 - Mar 2019**: The University of Sydney, B.S Pharmacy
 
