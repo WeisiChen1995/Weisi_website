@@ -1,0 +1,12 @@
+---
+title: "About me"
+toc: true
+toc-location: left
+lightbox: true
+execute: 
+  echo: false
+  warning: false
+---
+
+
+

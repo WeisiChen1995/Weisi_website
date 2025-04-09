@@ -1,0 +1,16 @@
+/* custom.css */
+
+/* Grid layout for the photo gallery */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two images per row */
+  gap: 20px; /* Space between images */
+  justify-items: center; /* Center the images */
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
