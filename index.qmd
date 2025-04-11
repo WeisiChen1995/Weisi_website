@@ -1,5 +1,5 @@
 ---
-title: "Weisi Chen"
+title: "Tangpai"
 image: "img/profile.png"
 execute: 
   echo: false
@@ -9,19 +9,12 @@ about:
   links:
     - icon: github
       href: https://github.com/WeisiChen1995
-    - icon: linkedin
-      href: https://www.linkedin.com/in/weisi-chen-000334239/
-    - text: '<i class="ai ai-google-scholar fa-lg"></i>'
-      href: https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/
-    - text: '<i class="ai ai-researchgate fa-lg"></i>'
-      href: https://www.researchgate.net/profile/Weisi-Chen-3
+
 ---
 
 ::: {#me}
 ### Welcome to my personal website!
-Born and raised in [Hangzhou, China](https://weisichen1995.github.io/Weisi_website/blog/2025-01-21-moments-in-Hangzhou/), I moved to Sydney, Australia in 2015 to pursue university studies. I am intertested in technology, programming, data analysis, data visualization, and statistical modeling. 
 
-In my free time, I enjoy reading, photography, exploring cities on foot, traveling, learning/exploring new things and cherishing moments with family and friends.
 
 
 

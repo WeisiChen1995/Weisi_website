@@ -8,8 +8,8 @@ project:
     - "blog/**/*.qmd"
   
 website:
-  title: "Weisi's website"
-  description: "The personal website of Weisi"
+  title: "Tangpai's website"
+  description: "The personal website of Tangpai"
   site-url: https://www.weisichen.com
   navbar:
     right:
@@ -23,7 +23,7 @@ website:
         
   page-footer:
     center:
-      - text: "<a href='https://github.com/WeisiChen1995' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/weisi-chen-000334239/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Weisi-Chen-3' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a <br>Website made using <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Weisi Chen"
+      - text: "<a href='https://github.com/WeisiChen1995' </a> &nbsp; <a <br>Website made using <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Tangpai"
 
 format:
   html:
