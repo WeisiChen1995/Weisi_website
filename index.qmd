@@ -6,9 +6,6 @@ execute:
   warning: false
 about:
   template: trestles
-  links:
-    - icon: github
-      href: https://github.com/WeisiChen1995
 
 ---
 

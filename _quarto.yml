@@ -23,7 +23,7 @@ website:
         
   page-footer:
     center:
-      - text: "<a href='https://github.com/WeisiChen1995' </a> &nbsp; <a <br>Website made using <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Tangpai"
+      - text: "<a <br>Website made using <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Tangpai"
 
 format:
   html:
