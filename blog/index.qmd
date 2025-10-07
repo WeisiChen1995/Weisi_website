@@ -1,6 +1,6 @@
 ---
 title: Blog
-author: ""
+author: "Weisi"
 listing:
   contents: "index.qmd"
   categories: true

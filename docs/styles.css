@@ -1,0 +1,143 @@
+/* =====================
+   Import Fonts
+===================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Fira+Code&display=swap');
+
+/* =====================
+   Base Styles
+===================== */
+:root {
+  --accent: #6366f1; /* Indigo accent */
+  --bg: #f5f7fa;
+  --text: #222;
+  --card-bg: #ffffff;
+  --radius: 14px;
+  --shadow: 0 6px 24px rgba(0,0,0,0.06);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =====================
+   Headings
+===================== */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -0.01em;
+  background: linear-gradient(90deg, var(--accent), #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =====================
+   Links
+===================== */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+a:hover {
+  color: #4f46e5;
+  text-shadow: 0 0 10px rgba(99,102,241,0.3);
+}
+
+/* =====================
+   Navbar (glass effect)
+===================== */
+.navbar {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+
+  /* Make navbar text black */
+  color: #000;       /* main text color */
+}
+
+.navbar a {
+  color: #000;       /* link text inside navbar */
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #333;       /* optional hover color */
+}
+
+/* =====================
+   Cards
+===================== */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.8rem;
+  margin: 1.8rem 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* =====================
+   Footer
+===================== */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  background: rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+
+/* =====================
+   Code
+===================== */
+code, pre {
+  font-family: "Fira Code", monospace;
+  background: #eef1f7;
+  padding: 0.3em 0.5em;
+  border-radius: 6px;
+}
+
+/* =====================
+   Smooth Animations
+===================== */
+* {
+  transition: all 0.25s ease;
+}
+
+/* =====================
+   Optional Dark Mode (auto)
+===================== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e0f11;
+    --text: #e6e6e6;
+    --card-bg: #16181b;
+    --accent: #818cf8;
+    --shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+
+  .navbar, footer {
+    background: rgba(25,25,28,0.6);
+    border-color: rgba(255,255,255,0.1);
+  }
+
+  code, pre {
+    background: #1e1f22;
+  }
+}
