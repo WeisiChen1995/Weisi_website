@@ -10,7 +10,7 @@ project:
 website:
   title: "Weisi's website"
   description: "The personal website of Weisi"
-  site-url: https://github.com/WeisiChen1995/Weisi_website
+  site-url: https://weisichen.org
   navbar:
     right:
       - text: "About"

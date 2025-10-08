@@ -1,6 +1,6 @@
 ---
-title: "About Nanjing | 金陵印象"
-description: "Nanjing Impression"
+title: "About Nanjing"
+description: " "
 date: '2025-01-20'
 image: "images/nanjing.png"
 categories:
