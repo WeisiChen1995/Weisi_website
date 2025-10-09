@@ -1,26 +1,27 @@
 /* =====================
-   Import Fonts
+   Import Book-Style Fonts
 ===================== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Cormorant+Garamond:wght@500;600&family=Fira+Code&display=swap');
 
 /* =====================
    Base Styles
 ===================== */
 :root {
-  --accent: #6366f1; /* Indigo accent */
-  --bg: #f5f7fa;
-  --text: #222;
+  --accent: #5b4b8a; /* softer literary tone */
+  --bg: #fdfcf9; /* warmer paper-like background */
+  --text: #2b2b2b;
   --card-bg: #ffffff;
   --radius: 14px;
   --shadow: 0 6px 24px rgba(0,0,0,0.06);
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Merriweather", serif;
   background: var(--bg);
   color: var(--text);
-  line-height: 1.7;
+  line-height: 1.75;
   margin: 0;
+  line-height: 1.75;
   padding: 0;
   transition: background 0.3s ease, color 0.3s ease;
 }
@@ -29,12 +30,13 @@ body {
    Headings
 ===================== */
 h1, h2, h3, h4 {
+  font-family: "Cormorant Garamond", serif;
   font-weight: 600;
-  color: #111;
-  letter-spacing: -0.01em;
-  background: linear-gradient(90deg, var(--accent), #60a5fa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #1a1a1a;
+  letter-spacing: 0.01em;
+  background: none;
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
 }
 
 /* =====================
@@ -43,64 +45,12 @@ h1, h2, h3, h4 {
 a {
   color: var(--accent);
   text-decoration: none;
+  border-bottom: 1px solid rgba(91, 75, 138, 0.3);
   transition: all 0.25s ease;
 }
 a:hover {
-  color: #4f46e5;
-  text-shadow: 0 0 10px rgba(99,102,241,0.3);
-}
-
-/* =====================
-   Navbar (glass effect)
-===================== */
-.navbar {
-  backdrop-filter: blur(12px);
-  background: rgba(255,255,255,0.6);
-  border-bottom: 1px solid rgba(255,255,255,0.4);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-  position: sticky;
-  top: 0;
-
-  /* Make navbar text black */
-  color: #000;       /* main text color */
-}
-
-.navbar a {
-  color: #000;       /* link text inside navbar */
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: #333;       /* optional hover color */
-}
-
-/* =====================
-   Cards
-===================== */
-.card {
-  background: var(--card-bg);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 1.8rem;
-  margin: 1.8rem 0;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
-/* =====================
-   Footer
-===================== */
-footer {
-  text-align: center;
-  padding: 2rem;
-  color: #666;
-  background: rgba(255,255,255,0.6);
-  backdrop-filter: blur(8px);
-  font-size: 0.9rem;
-  border-top: 1px solid rgba(255,255,255,0.4);
+  color: #43346d;
+  border-bottom-color: rgba(91, 75, 138, 0.6);
 }
 
 /* =====================
@@ -108,36 +58,22 @@ footer {
 ===================== */
 code, pre {
   font-family: "Fira Code", monospace;
-  background: #eef1f7;
+  background: #f3f1eb;
   padding: 0.3em 0.5em;
   border-radius: 6px;
+  font-size: 0.9em;
 }
 
 /* =====================
-   Smooth Animations
+   Layout Tweaks
 ===================== */
-* {
-  transition: all 0.25s ease;
+.quarto-about-content {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-/* =====================
-   Optional Dark Mode (auto)
-===================== */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0e0f11;
-    --text: #e6e6e6;
-    --card-bg: #16181b;
-    --accent: #818cf8;
-    --shadow: 0 4px 20px rgba(0,0,0,0.5);
-  }
-
-  .navbar, footer {
-    background: rgba(25,25,28,0.6);
-    border-color: rgba(255,255,255,0.1);
-  }
-
-  code, pre {
-    background: #1e1f22;
-  }
+main.content {
+  max-width: 900px;
+  margin: 0 auto;
 }
+
