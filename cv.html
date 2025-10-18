@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2025-10-10">
 
 <title>Curriculum Vitae – Weisi’s website</title>
 <style>
@@ -105,10 +106,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./cv.html">
+ <span class="dropdown-text">Curriculum Vitae</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -124,14 +136,25 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
+  <li><a href="#brief-biography" id="toc-brief-biography" class="nav-link" data-scroll-target="#brief-biography">Brief Biography</a></li>
+  <li><a href="#professional-interests" id="toc-professional-interests" class="nav-link" data-scroll-target="#professional-interests">Professional Interests</a></li>
+  <li><a href="#education-background" id="toc-education-background" class="nav-link" data-scroll-target="#education-background">Education Background</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#professional-experience" id="toc-professional-experience" class="nav-link" data-scroll-target="#professional-experience">Professional Experience</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -140,9 +163,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 10, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -152,8 +181,41 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><a href="https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf">📄 See full CV here</a></p>
+<section id="contact" class="level1">
+<h1>Contact</h1>
+<p><a href="mailto:weisi.0816@gmail.com">✉️ weisi.0816@gmail.com</a></p>
+</section>
+<section id="brief-biography" class="level1">
+<h1>Brief Biography</h1>
+<p>I am a data analyst with a former background in pharmacy, bringing a unique combination of domain knowledge and analytical expertise to complex health data projects. I am highly disciplined, detail-oriented, and driven by a strong passion for reproducible research, statistical analysis, and data visualization.</p>
+<p>I am proficient in statistical software such as R and SAS, with extensive experience in data cleaning, analysis, visualization, and statistical modelling. Over the years, I have worked extensively with large, linked health administrative datasets, gaining expertise in platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) and Medicare Benefits Schedule (MBS) claims, and death registrations.</p>
+<p>In addition, I have worked with NSW state-level data collections, covering perinatal records, birth registrations, child protection reports, public housing, NAPLAN, school enrollment, the Australian Early Development Census, out-of-home care, and justice system data.</p>
+<p>I am deeply committed to continuous learning and professional development, always eager to explore new packages, techniques, or skills that enhance my ability to analyze data effectively and deliver meaningful insights.</p>
+</section>
+<section id="professional-interests" class="level1">
+<h1>Professional Interests</h1>
+<p>• Reproducible researching • Data Visualization • Statistical modeling</p>
+</section>
+<section id="education-background" class="level1">
+<h1>Education Background</h1>
+<ul>
+<li>2021 – 2023, <strong>Master of Health Data Science</strong>, University of New South Wales<br>
+</li>
+<li>2015 – 2019, <strong>Bachelor of Pharmacy</strong>, University of Sydney</li>
+</ul>
+</section>
+<section id="publications" class="level1">
+<h1>Publications</h1>
+<p><a href="https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&amp;hl=en">Google Scholar Profile</a></p>
+</section>
+<section id="professional-experience" class="level1">
+<h1>Professional Experience</h1>
+<p>I transitioned into data-focused work in 2021 through the Master of Health Data Science program at the University of New South Wales. My first quantitative project was my master’s dissertation at the Kirby Institute, UNSW, where I developed a mixed-effects model to examine changes in cardiovascular risk among people living with HIV. A key methodological challenge was that the outcome—cardiovascular risk—was expressed as a percentage, bounded between 0 and 1, which violates assumptions of standard linear models. To address this, I implemented a beta-distributed generalized linear mixed-effects model (GLMM) using the <a href="https://cran.r-project.org/web/packages/glmmTMB/index.html">glmmTMB</a> package in R, enabling flexible modeling of proportional outcomes while accounting for individual-level random effects.</p>
+<p>Since July 2023, I have worked as a Data Scientist at the School of Public Health, UNSW, and the School of Pharmacy, USYD. In this role, I have extensive experience working with large, linked administrative health datasets through platforms including SURE, PLIDA, and NHDH. My work spans national-level datasets such as hospital admissions, emergency department presentations, PBS, and MBS data, as well as NSW state-level datasets including perinatal data, birth registrations, Australian Early Development Census, public school enrollments, NAPLAN, child protection reports, out-of-home care placements, justice data, public housing data, and death registrations.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

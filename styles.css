@@ -77,3 +77,14 @@ main.content {
   margin: 0 auto;
 }
 
+
+/* --- Ensure Quarto navbars display correctly --- */
+nav.quarto-navbar, nav.navbar {
+  max-width: none !important;
+  margin: 0 !important;
+  width: 100% !important;
+  position: relative !important;
+  z-index: 10;
+}
+
+
