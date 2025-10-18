@@ -126,5 +126,31 @@ hr {
   margin: 2em 0;
 }
 
+/* =====================
+   Profile Picture - Circular with White Border
+===================== */
+.about-image,
+.quarto-about-trestles .about-image,
+.quarto-about .about-image {
+  width: 380px !important;
+  height: 440x !important;
+  border-radius: 50% !important;      /* circular container */
+  overflow: hidden !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto !important;
+  border: 6px solid white !important; /* thick white border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* optional subtle shadow */
+}
+
+.about-image img,
+.quarto-about-trestles .about-image img,
+.quarto-about .about-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;       /* fill container without stretching */
+  border-radius: 50% !important;      /* keep image circular */
+}
 
 
