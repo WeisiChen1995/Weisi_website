@@ -4,7 +4,7 @@
     "href": "climate.html",
     "title": "NSW Rainfall Kriging Map",
     "section": "",
-    "text": "Loading NSW Rainfall Kriging Map…"
+    "text": "🌦️ Project Background\n\nIntroduction\nThis project explores rainfall patterns across New South Wales in 2025 using data collected from rainfall stations. Since stations are unevenly distributed across the state, the dataset does not cover every area in NSW.\nTo estimate rainfall in unsampled regions, kriging (a spatial interpolation technique) was applied to the station data. For each month, a variogram model was fitted to evaluate and select the most appropriate kriging parameters, ensuring the interpolation accurately reflected spatial rainfall patterns across NSW.\nThe results are presented through an interactive map, allowing users to explore monthly rainfall distributions across the state.\n\n\nData\n\nDaily rainfall data: Downloaded from all available stations in NSW for 2025 (January–September at the time of download).\n\nSource: SILO Point Data\n\n\nStation and geographic data: Retrieved from SILO Patched Point Dataset\n\nDaily rainfall values were aggregated to monthly totals for analysis.\n\nThe process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.\n\nInteractive download: Users can download the rainfall data directly from the interactive map.\n\n\n\n\n\n\n\nLoading NSW Rainfall Kriging Map..."
   },
   {
     "objectID": "blog/2025-01-25-Happy-Chinese-New-Year/index.html",
