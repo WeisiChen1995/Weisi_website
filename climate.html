@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-10-10">
 
-<title>About – Weisi’s website</title>
+<title>NSW Rainfall Kriging Map – Weisi’s website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -150,35 +149,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#about-this-website" id="toc-about-this-website" class="nav-link active" data-scroll-target="#about-this-website">About This Website</a></li>
-  <li><a href="#contact-me" id="toc-contact-me" class="nav-link" data-scroll-target="#contact-me">Contact Me</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">NSW Rainfall Kriging Map</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-page">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">October 10, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -188,20 +174,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="about-this-website" class="level1">
-<h1>About This Website</h1>
-<p>This website is created using <a href="https://quarto.org/">Qarto</a>.</p>
-<p>This space is dedicated to sharing insights, resources, and projects, as well as glimpses of life for fun and inspiration.</p>
-<hr>
-</section>
-<section id="contact-me" class="level1">
-<h1>Contact Me</h1>
-<p><strong>Email:</strong> <a href="mailto:weisi.0816@gmail.com">weisi.0816@gmail.com</a></p>
-<p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/weisi-chen-000334239/">Weisi Chen</a></p>
-<hr>
+<!-- Full-page CSS for iframe and loading message -->
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* optional background */
+}
+
+/* iframe smaller than full page */
+#shiny-iframe {
+  width: 90vw;   /* 90% of viewport width */
+  height: 90vh;  /* 90% of viewport height */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Loading message */
+#loading-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+</style>
+<!-- Loading message -->
+<div id="loading-message">
+<p>Loading NSW Rainfall Kriging Map…</p>
+</div>
+<!-- Embed Shiny app -->
+<iframe id="shiny-iframe" src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/" onload="document.getElementById('loading-message').style.display='none';">
+</iframe>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
