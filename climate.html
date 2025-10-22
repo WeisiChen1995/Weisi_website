@@ -155,6 +155,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#project-background" id="toc-project-background" class="nav-link active" data-scroll-target="#project-background">🌦️ Project Background</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   </ul>
 </nav>
     </div>
@@ -182,28 +183,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-background" class="level3">
 <h3 class="anchored" data-anchor-id="project-background">🌦️ Project Background</h3>
-<section id="introduction" class="level4">
-<h4 class="anchored" data-anchor-id="introduction">Introduction</h4>
-<p>This project explores rainfall patterns across New South Wales in 2025 using data collected from rainfall stations. Since stations are unevenly distributed across the state, the dataset does not cover every area in NSW.</p>
-<p>To estimate rainfall in unsampled regions, kriging (a spatial interpolation technique) was applied to the station data. For each month, a variogram model was fitted to evaluate and select the most appropriate kriging parameters, ensuring the interpolation accurately reflected spatial rainfall patterns across NSW.</p>
-<p>The results are presented through an interactive map, allowing users to explore monthly rainfall distributions across the state.</p>
-</section>
-<section id="data" class="level4">
-<h4 class="anchored" data-anchor-id="data">Data</h4>
+<p>This project examines rainfall patterns across New South Wales (NSW) in 2025 using data collected from rainfall stations. Because stations are unevenly distributed, not all areas of NSW are directly observed.</p>
+<p>To estimate rainfall in unsampled regions, kriging, a spatial interpolation technique, was applied to the station data. For each month, a variogram model was fitted to determine the most suitable kriging parameters, ensuring the interpolated map accurately represents spatial rainfall patterns across the state.</p>
+<p>The results are presented through an interactive map:</p>
 <ul>
-<li><strong>Daily rainfall data:</strong> Downloaded from all available stations in NSW for 2025 (January–September at the time of download).
-<ul>
-<li>Source: <a href="https://www.longpaddock.qld.gov.au/silo/point-data/">SILO Point Data</a><br>
-</li>
-</ul></li>
-<li><strong>Station and geographic data:</strong> Retrieved from <a href="https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php">SILO Patched Point Dataset</a><br>
-</li>
-<li>Daily rainfall values were aggregated to monthly totals for analysis.<br>
-</li>
-<li>The process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.<br>
-</li>
-<li><strong>Interactive download:</strong> Users can download the rainfall data directly from the interactive map.</li>
+<li>Click “Rain Stations” to view rainfall data for individual stations.</li>
+<li>Click “Universal Kriging” to see the interpolated rainfall map.</li>
 </ul>
+<p>Additional details about the data sources and the kriging technique are provided at the bottom of the page.</p>
 <!-- Full-page CSS for iframe and loading message -->
 <style>
 html, body {
@@ -228,7 +215,7 @@ html, body {
 /* iframe smaller than full page */
 #shiny-iframe {
   width: 80vw;   /* 95% of viewport width */
-  height: 75vh;  /* 70% of viewport height */
+  height: 90vh;  /* 70% of viewport height */
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -257,6 +244,26 @@ html, body {
 </div>
 <p><!-- Embed Shiny app --> <iframe id="shiny-iframe" src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/" onload="document.getElementById('loading-message').style.display='none';"> </iframe></p>
 </div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<ul>
+<li><strong>Daily rainfall data:</strong> Downloaded from all available stations in NSW for 2025 (January–September at the time of download).
+<ul>
+<li>Source: <a href="https://www.longpaddock.qld.gov.au/silo/point-data/">SILO Point Data</a><br>
+</li>
+</ul></li>
+<li><strong>Station and geographic data:</strong> Retrieved from <a href="https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php">SILO Patched Point Dataset</a><br>
+</li>
+<li>Daily rainfall values were aggregated to monthly totals for analysis.<br>
+</li>
+<li>The process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.<br>
+</li>
+<li><strong>Interactive download:</strong> Users can download the rainfall data directly from the interactive map.</li>
+</ul>
+<section id="github-repository" class="level4">
+<h4 class="anchored" data-anchor-id="github-repository">Github Repository</h4>
+<p><a href="https://github.com/WeisiChen1995/climate">View the Github Repository</a>.</p>
 
 
 </section>
