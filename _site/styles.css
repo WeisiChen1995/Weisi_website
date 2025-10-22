@@ -1,0 +1,156 @@
+/* =====================
+   Import Formal + Handwriting Fonts
+===================== */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Dancing+Script:wght@500&family=Fira+Code&display=swap');
+
+/* =====================
+   Base Styles
+===================== */
+:root {
+  --accent: #7c6fcf; /* refined lavender accent */
+  --bg: #fdfcf9; /* soft ivory background */
+  --text: #2a2a2a;
+  --card-bg: #ffffff;
+  --radius: 14px;
+  --shadow: 0 8px 24px rgba(0,0,0,0.05);
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* =====================
+   Headings
+===================== */
+h1, h2, h3, h4 {
+  font-family: "Dancing Script", cursive;
+  color: var(--accent);
+  margin-top: 1.6em;
+  margin-bottom: 0.4em;
+  letter-spacing: 0.02em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* =====================
+   Links
+===================== */
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(124, 111, 207, 0.3);
+  transition: all 0.25s ease;
+}
+a:hover {
+  color: #5e50b8;
+  border-bottom-color: rgba(124, 111, 207, 0.6);
+}
+
+/* =====================
+   Code
+===================== */
+code, pre {
+  font-family: "Fira Code", monospace;
+  background: #f6f3ef;
+  padding: 0.35em 0.55em;
+  border-radius: 6px;
+  font-size: 0.9em;
+  color: #5c4a91;
+}
+
+/* =====================
+   Containers
+===================== */
+.quarto-about-content,
+main.content {
+  max-width: 880px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2em 2.5em;
+}
+
+/* =====================
+   Emphasis & Quotes
+===================== */
+em {
+  color: var(--accent);
+  font-style: italic;
+}
+
+strong {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+blockquote {
+  font-family: "Cormorant Garamond", serif;
+  background: #f8f6ff;
+  border-left: 4px solid var(--accent);
+  margin: 1.5em 0;
+  padding: 1em 1.4em;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: #3d3471;
+  font-size: 1.05em;
+  font-style: italic;
+}
+
+/* =====================
+   Lists & Dividers
+===================== */
+ul, ol {
+  padding-left: 1.5em;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed rgba(124, 111, 207, 0.3);
+  margin: 2em 0;
+}
+
+/* =====================
+   Profile Picture - Circular with White Border
+===================== */
+.about-image,
+.quarto-about-trestles .about-image,
+.quarto-about .about-image {
+  width: 380px !important;
+  height: 440x !important;
+  border-radius: 50% !important;      /* circular container */
+  overflow: hidden !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto !important;
+  border: 6px solid white !important; /* thick white border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* optional subtle shadow */
+}
+
+.about-image img,
+.quarto-about-trestles .about-image img,
+.quarto-about .about-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;       /* fill container without stretching */
+  border-radius: 50% !important;      /* keep image circular */
+}
+
+

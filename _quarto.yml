@@ -1,20 +1,35 @@
 project:
   type: website
-  output-dir: docs
+  #output-dir: docs
   render: 
     - "index.qmd"
     - "about.qmd"
+    - "cv.qmd"
     - "blog/index.qmd"
     - "blog/**/*.qmd"
+    - "climate.qmd"
   
 website:
   title: "Weisi's website"
+  favicon: img/logo2.jpg
   description: "The personal website of Weisi"
   site-url: https://weisichen.org
   navbar:
-    right:
+    logo: img/logo2.jpg
+    left:
+      - text: "Home"
+        href: index.qmd
       - text: "About"
-        href: about.qmd
+        menu:
+          - text: "About"
+            href: about.qmd
+          - text: "Curriculum Vitae"
+            href: cv.qmd
+      - text: "Projects"
+        menu:
+           - text: "Climate"
+             href: climate.qmd
+    right:
       - text: "Other"
         href: blog/index.qmd
     tools:
@@ -23,7 +38,7 @@ website:
         
   page-footer:
     center:
-      - text: "<a href='https://github.com/WeisiChen1995' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/weisi-chen-000334239/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Weisi-Chen-3' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a <br>Website made using <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Weisi Chen"
+      - text: "<a href='https://github.com/WeisiChen1995' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/weisi-chen-000334239/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Weisi-Chen-3' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a <br>Website made with 🖤 and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Weisi Chen"
 
 format:
   html:

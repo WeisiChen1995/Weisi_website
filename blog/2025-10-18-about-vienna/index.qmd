@@ -1,0 +1,163 @@
+---
+title: "About Vienna"
+description: " "
+author: "Weisi"
+date: '2025-10-18'
+image: "images/vienna-logo.jpg"
+categories:
+  - Vienna
+  - Travel
+format: 
+  html:
+    toc: true
+    toc-depth: 5 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3,
+  R.options = list(width = 60)
+)
+```
+
+
+
+## Vienna
+
+Walking through Vienna feels like stepping into a city that time has carefully sculpted. Every building, every street corner seems to whisper stories of the Austro-Hungarian Empire and the grandeur of the Habsburg dynasty. Known as the music capital of the world, I can almost hear the soft strains of a Viennese waltz drifting through the air. 
+
+<div>
+🎵 <strong>The Blue Danube, Johann Strauss, Jr.</strong><br>
+<audio controls>
+  <source src="music/Blauen Donau.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<div style="margin-top: 1em;">
+🎵 <strong>Frühlingsstimmen ("Voices of Spring"), Johann Strauss, Jr.</strong><br>
+<audio controls>
+  <source src="music/Fruhlingsstimmen.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<div style="margin-top: 1em;">
+🎵 <strong>Wiener Blut ("Viennese Blood"), Johann Strauss, Jr.</strong><br>
+<audio controls>
+  <source src="music/Wiener Blut.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+
+From the opulent [Schönbrunn Palace](https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace) to the majestic [Hofburg Imperial Palace](https://en.wikipedia.org/wiki/Hofburg), from the soaring spire of [St. Stephen’s Cathedral](https://en.wikipedia.org/wiki/St._Stephen%27s_Cathedral,_Vienna) to the glittering [Golden Hall](https://en.wikipedia.org/wiki/Musikverein), and across countless museums and theaters, Vienna is a city where history and art converge at every turn. Each step feels like walking through a living museum, where the past and present coexist seamlessly.
+
+The story of the Habsburg family flows like a hidden river beneath the city’s streets. While history records countless male rulers, it is often two legendary women who capture the imagination: the determined and politically brilliant [Empress Maria Theresa](https://en.wikipedia.org/wiki/Maria_Theresa), and the romantic, slightly melancholic [Empress Sisi](https://en.wikipedia.org/wiki/Empress_Elisabeth_of_Austria). 
+
+Once the mighty Austro-Hungarian Empire fell after World War I, and Austria faced the challenges of defeat and reconstruction after World War II. Today, it stands as a permanently neutral country, cherishing its rich cultural heritage while embracing modernity with grace, attracting millions of tourists each year.
+
+Vienna is a city to be savored slowly. I loved wandering its elegant streets, pausing in parks or outside museums and theaters, letting the city’s history and artistry wash over me. Every corner tells a story, every building reflects centuries of culture, and every note of music reminds us why Vienna remains one of the world’s most enchanting cities.
+
+
+## Glimpses of Vienna
+
+###  Vienna landmarks: Gothic St. Stephen's Cathedral
+
+St. Stephen’s Cathedral sits at the very heart of Vienna, a masterpiece of Gothic architecture and one of the city’s most enduring symbols. Construction began in 1137, with major Gothic expansions taking place in the 14th and 15th centuries. Today, its south tower rises 136 meters into the sky, dominating the city skyline.
+
+<center>
+<img src="images/st-stephen-cathedral.jpg" width="100%">
+</center>
+
+### Baroque-Style Architecture: Extreme Ornamentation and Dazzling Visual Impact
+Vienna is home to countless Baroque-style churches, palaces, and buildings, which form a striking contrast to the Gothic St. Stephen’s Cathedral. While Gothic architecture emphasizes height, pointed lines, and verticality, Baroque architecture often features rounded forms, grandeur, and elaborate ornamentation. In contrast to the relative minimalism of Gothic design, Baroque embraces an “extreme ornamentation” style, with intricate details that create a dazzling visual impact.
+
+#### Hofburg Imperial Palace
+<center>
+<img src="images/baroque2.jpg" width="100%">
+<img src="images/baroque3.jpg" width="100%">
+</center>
+
+#### Austria National Library – One of the World’s Most Beautiful Libraries
+<center>
+<img src="images/library1.jpg" width="100%">
+<img src="images/library2.jpg" width="100%">
+<img src="images/library3.jpg" width="100%">
+<img src="images/library4.jpg" width="100%">
+<img src="images/library5.jpg" width="100%">
+</center>
+
+#### The Plague Column 
+The Plague Column sits at the heart of Vienna. Erected in the late 17th century, it is a striking Baroque monument commemorating the victims of the Black Death. Its intricate sculptures of angels, saints, and allegorical figures soar skyward, symbolizing both suffering and divine protection.
+
+<center>
+<img src="images/the-plague-column.jpg" width="100%">
+</center>
+
+#### Baroque-style church
+<center>
+<img src="images/church2.jpg" width="100%">
+<img src="images/church3.jpg" width="100%">
+<img src="images/church4.jpg" width="100%">
+</center>
+
+#### The Fusion of History and Art – Kunsthistorisches Museum Vienna
+Known as one of the most beautiful museums in the world, stepping inside the Kunsthistorisches Museum Vienna instantly captivated me with its exquisite frescoes and soaring domes. Within its grand halls, the museum houses countless priceless works of art, from Old Master paintings to ancient artifacts.
+
+<center>
+<img src="images/museum1.jpg" width="100%">
+<img src="images/museum2.jpg" width="100%">
+<img src="images/museum3.jpg" width="100%">
+<img src="images/museum4.jpg" width="100%">
+</center> <br>
+
+##### 🤍 **Ivory Art**
+What impressed me most were the countless intricately carved ivory artworks on display. The human figures depicted in these pieces are astonishingly lifelike — the expressions, gestures, and even the subtle textures of muscles are rendered with remarkable precision! Standing before them, it’s impossible not to marvel at the extraordinary craftsmanship and patience required to create such delicate works of art. Each piece feels almost alive, indeed a testament to the skill and artistry of its creator.
+
+<center>
+<img src="images/museum_art1.jpg" width="100%">
+<img src="images/museum_art2.jpg" width="100%">
+<img src="images/museum_art3.jpg" width="100%">
+<img src="images/museum_art4.jpg" width="100%">
+<img src="images/museum_art5.jpg" width="100%">
+</center> <br>
+
+##### 🖼 **The Museum’s Masterpiece: The Tower of Babel — Pieter Bruegel the Elder (1563)**
+
+The painting depicts the biblical story from the Book of Genesis, in which humanity, speaking a single language, attempts to build a tower tall enough to reach heaven. In response, God confounds their speech so that they can no longer understand one another, scattering them across the earth.
+
+<center>
+<img src="images/museum_art6.jpg" width="100%">
+</center> <br>
+
+##### 🩸 **The Museum’s Masterpiece: The Death of Medusa — Peter Paul Rubens (early 17th century)**
+
+Rubens paints the severed head itself, surrounded by writhing snakes, still alive with venomous energy. Blood drips from Medusa’s neck, and serpents coil around the frame — a haunting representation of both beauty and terror.
+
+<center>
+<img src="images/museum_art7.jpg" width="100%">
+</center> <br>
+
+##### 🍞🍷 **The Museum’s Masterpiece: Still Life with Herring, Bread, and a Glass of Beer — Pieter Claesz (1597–1660)**
+
+One of my favorite art collections in the Kunsthistorisches Museum Vienna! The crispy crust of the bread, the shimmer of the fish scales, the transparency of the glass, and the soft folds of the napkin — so real that you almost expect to reach out and touch them.
+
+<center>
+<img src="images/museum_art8.jpg" width="100%">
+</center> <br>
+
+### Romantic Carriages of Vienna
+Carriages can be seen throughout Vienna, adding a unique and romantic atmosphere to the city. The coachmen’s traditional attire seems to transport visitors back to the Middle Ages. And, of course, as the carriages weave through the city center, we all cannot help but notice the horses’ distinctive scent!
+
+<center>
+<img src="images/carriage1.jpg" width="100%">
+<img src="images/carriage2.jpg" width="100%">
+<img src="images/carriage3.jpg" width="100%">
+</center>

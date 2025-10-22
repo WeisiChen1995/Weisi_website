@@ -1,20 +1,74 @@
 ---
 title: "Weisi Chen"
-image: "img/profile.jpg"
+subtitle: |
+  [📄 CV](https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf?raw=TRUE)
+  • [✉️ weisi.0816@gmail.com](mailto:weisi.0816@gmail.com)
+  • [🔗 LinkedIn](https://www.linkedin.com/in/weisi-chen-000334239/)
+image: "img/weisi.jpg"
+about:
+  template: trestles
+toc: false
 execute: 
   echo: false
   warning: false
-about:
-  template: trestles
-
+format:
+  html:
+    mainfont: "Inter"
+    theme: flatly
+    page-layout: full
 ---
 
-::: {#me}
-### Welcome to my personal website!
+<style>
+/* Force circular profile picture */
+.about-image,
+.quarto-about-trestles .about-image,
+.quarto-about .about-image {
+  width: 300x !important;
+  height: 400px !important;
+  border-radius: 50% !important; /* round container */
+  overflow: hidden !important;   /* crop any overflow */
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto !important;
+}
 
-My background is in pharmacy, and over time I transitioned into data-focused work, combining my clinical understanding with a strong interest in data analysis. I am particularly passionate about using data to generate meaningful insights that can inform health policy and improve population health outcomes.
+.about-image img,
+.quarto-about-trestles .about-image img,
+.quarto-about .about-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important; /* fill container without stretching */
+  border-radius: 50% !important; /* round image */
+}
+</style>
 
-My key interests lie in three areas: (1) coding, especially developing efficient workflows and automating data processes; (2) data visualization, through which I aim to present complex findings in clear and accessible ways; and (3) statistical and analytical methods, where I am continuously expanding my knowledge of modern approaches to understanding real-world data.
 
-I have hands-on experience working with large, linked health administrative datasets, including nationwide hospital admissions, emergency department presentations, perinatal data collection, PBS and MBS data. These experiences have strengthened my skills in managing and analyzing complex data structures, ensuring data quality, and deriving insights from population-level information. I am proficient in SAS and R and use these tools extensively for data cleaning, statistical modeling, and visualization.
+
+
+
+:::{#me .columns}
+::: {.column width="90%"}
+### 👋 Hi, I’m Weisi
+I’m a **data analyst based in Sydney, Australia**, with a former background in pharmacy. <br>
+
+My interests focus on three key areas:  
+1. 💻 Coding <br>
+2. 📊 Data visualization  <br>
+3. 📈 Expanding my knowledge of statistical and analytical methods <br>
+
+Since 2023, I’ve been working with large, linked health administrative datasets across platforms such as SURE, PLIDA, and NHDH. I’m proficient in SAS and R, which I use extensively for data cleaning, statistical modeling, and visualization.
+
+Outside of work, I enjoy exploring art, traveling, and spending quality time with my family.
+
+**Technical Skills:** SAS • R • big data management • Statistical modeling • Visualization <br>
+**Professional Interests:** Reproducible Research • Data Visualization • Statistical modeling <br>
+
+:::
+
+
+:::
+
+
+
 

@@ -1,0 +1,58 @@
+---
+title: "NSW Rainfall Kriging Map"
+format: html
+page-layout: full
+execute: 
+  echo: false
+---
+
+
+<!-- Full-page CSS for iframe and loading message -->
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; /* optional background */
+}
+
+/* iframe smaller than full page */
+#shiny-iframe {
+  width: 90vw;   /* 90% of viewport width */
+  height: 90vh;  /* 90% of viewport height */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Loading message */
+#loading-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+</style>
+
+<!-- Loading message -->
+<div id="loading-message">
+  Loading NSW Rainfall Kriging Map...
+</div>
+
+<!-- Embed Shiny app -->
+<iframe 
+    id="shiny-iframe"
+    src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/"
+    onload="document.getElementById('loading-message').style.display='none';">
+</iframe>
+

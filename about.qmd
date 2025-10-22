@@ -1,13 +1,27 @@
 ---
-title: "About me"
+title: "About"
+date: "2025-10-10"
+page-layout: full
 toc: true
-toc-location: left
-lightbox: true
-execute: 
-  echo: false
-  warning: false
 ---
 
 
+# About This Website
+
+This website is built with [Qarto](https://quarto.org/).
+
+This space is dedicated to sharing insights, resources, and projects, as well as glimpses of life for fun and inspiration. I am constantly updating the website and correcting any mistakes. 
+
+[View the Github Repository](https://github.com/WeisiChen1995/Weisi_website).
+
+---
+
+# Contact Me
+
+**Email:** [weisi.0816@gmail.com](mailto:weisi.0816@gmail.com)  
+
+**LinkedIn:** [Weisi Chen](https://www.linkedin.com/in/weisi-chen-000334239/)  
+
+---
 
 

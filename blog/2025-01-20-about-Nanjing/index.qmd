@@ -1,10 +1,12 @@
 ---
 title: "About Nanjing"
 description: " "
-date: '2025-01-20'
+author: "Weisi"
+date: '2025-02-02'
 image: "images/nanjing.png"
 categories:
   - Nanjing
+  - Travel
 format: 
   html:
     toc: true
