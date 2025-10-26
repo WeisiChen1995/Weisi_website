@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AU Sea Surface Temperature (1995-2025) – Weisi Chen</title>
+<title>NSW Rainfall Kriging Map – Weisi Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -158,16 +158,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#project-objetives" id="toc-project-objetives" class="nav-link" data-scroll-target="#project-objetives">Project Objetives</a></li>
-  <li><a href="#method" id="toc-method" class="nav-link" data-scroll-target="#method">Method</a></li>
-  <li><a href="#result" id="toc-result" class="nav-link" data-scroll-target="#result">Result</a>
-  <ul>
-  <li><a href="#figure-1-animation-to-visualize-monthly-changes-to-sea-surface-temperature-january-1995-to-december-2025" id="toc-figure-1-animation-to-visualize-monthly-changes-to-sea-surface-temperature-january-1995-to-december-2025" class="nav-link" data-scroll-target="#figure-1-animation-to-visualize-monthly-changes-to-sea-surface-temperature-january-1995-to-december-2025">Figure 1: Animation to visualize monthly changes to Sea Surface Temperature, January 1995 to December 2025</a></li>
-  <li><a href="#figure-2-dominant-mode-of-sst-variability-around-australia-19952025." id="toc-figure-2-dominant-mode-of-sst-variability-around-australia-19952025." class="nav-link" data-scroll-target="#figure-2-dominant-mode-of-sst-variability-around-australia-19952025.">Figure 2: Dominant Mode of SST Variability Around Australia (1995–2025).</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  <li><a href="#code-and-github-repository" id="toc-code-and-github-repository" class="nav-link" data-scroll-target="#code-and-github-repository">Code and Github Repository</a></li>
-  </ul></li>
+  <li><a href="#project-background" id="toc-project-background" class="nav-link active" data-scroll-target="#project-background">🌦️ Project Background</a></li>
+  <li><a href="#users-note" id="toc-users-note" class="nav-link" data-scroll-target="#users-note">📝 User’s Note</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
   </ul>
 </nav>
     </div>
@@ -176,7 +169,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AU Sea Surface Temperature (1995-2025)</h1>
+<h1 class="title">NSW Rainfall Kriging Map</h1>
 </div>
 
 
@@ -193,49 +186,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="background" class="level3">
-<h3 class="anchored" data-anchor-id="background">Background</h3>
-<p>Sea surface temperature (SST) is a key indicator of ocean and climate variability, affecting weather, marine life, and coastal processes. In Australia, SST varies seasonally and year-to-year, influenced by climate events like El Niño–Southern Oscillation (ENSO) and the Indian Ocean Dipole (IOD). This project explores SST changes around Australia from January 1995 to December 2025 using monthly data from <a href="https://www.psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html">NOAA’s Extended Reconstructed Sea Surface Temperature (ERSST) dataset</a>. By applying Principal Component Analysis (PCA), I reveal the dominant patterns in both space and time.</p>
+<section id="project-background" class="level3">
+<h3 class="anchored" data-anchor-id="project-background">🌦️ Project Background</h3>
+<p>This project examines rainfall patterns across New South Wales (NSW) in 2025 using data collected from rainfall stations. Because stations are unevenly distributed, not all areas of NSW are directly observed.</p>
+<p>To estimate rainfall in unsampled regions, kriging, a spatial interpolation technique, was applied to the station data. For each month, a variogram model was fitted and explored to determine the most suitable kriging parameters, ensuring the interpolated map accurately represents spatial rainfall patterns across the state.</p>
 </section>
-<section id="project-objetives" class="level3">
-<h3 class="anchored" data-anchor-id="project-objetives">Project Objetives</h3>
+<section id="users-note" class="level3">
+<h3 class="anchored" data-anchor-id="users-note">📝 User’s Note</h3>
+<p>The results are presented through an interactive map:</p>
 <ul>
-<li>Map SST across Australian waters and nearby seas.</li>
-<li>Create animations showing monthly SST changes over 30 years.</li>
-<li>Use PCA to identify key temperature patterns and variability modes.</li>
-<li>Understand ocean warming trends and regional climate dynamics.</li>
+<li>Click “Rain Stations” to view rainfall data for individual stations. Hover over stations to see rainfall data for each staton</li>
+<li>Click “Kriging” to see the interpolated rainfall map.</li>
 </ul>
-</section>
-<section id="method" class="level3">
-<h3 class="anchored" data-anchor-id="method">Method</h3>
-<p>SST data were converted to standardized anomalies, with months as rows and locations as columns. PCA was applied to identify the dominant variability mode (PC1) and its spatial pattern (EOF1). PC1 shows how SST changes over time, while EOF1 highlights which regions contribute most to the dominant mode. Results are shown as an EOF1 map and PC1 time series, both for 1995–2025 and a detailed view of the past two years.</p>
-</section>
-<section id="result" class="level3">
-<h3 class="anchored" data-anchor-id="result">Result</h3>
-<section id="figure-1-animation-to-visualize-monthly-changes-to-sea-surface-temperature-january-1995-to-december-2025" class="level4">
-<h4 class="anchored" data-anchor-id="figure-1-animation-to-visualize-monthly-changes-to-sea-surface-temperature-january-1995-to-december-2025">Figure 1: Animation to visualize monthly changes to Sea Surface Temperature, January 1995 to December 2025</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/sst_1995_2025.gif" class="img-fluid figure-img" width="800"></p>
-<figcaption>SST Animation</figcaption>
-</figure>
+<p>Additional details about the data sources and the kriging technique are provided at the bottom of the page.</p>
+<!-- Full-page CSS for iframe and loading message -->
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Container for intro + app */
+#app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* iframe smaller than full page */
+#shiny-iframe {
+  width: 80vw;   /* 95% of viewport width */
+  height: 90vh;  /* 70% of viewport height */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Loading message */
+#loading-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 10;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+</style>
+<!-- App container -->
+<div id="app-container">
+<!-- Loading message -->
+<div id="loading-message">
+<pre><code>Loading NSW Rainfall Kriging Map...</code></pre>
+</div>
+<p><!-- Embed Shiny app --> <iframe id="shiny-iframe" src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/" onload="document.getElementById('loading-message').style.display='none';"> </iframe></p>
 </div>
 </section>
-<section id="figure-2-dominant-mode-of-sst-variability-around-australia-19952025." class="level4">
-<h4 class="anchored" data-anchor-id="figure-2-dominant-mode-of-sst-variability-around-australia-19952025.">Figure 2: Dominant Mode of SST Variability Around Australia (1995–2025).</h4>
-<p>Left (A): Spatial pattern of the first Empirical Orthogonal Function (EOF1), showing cooler SSTs around southern Australia and warmer SSTs to the north. Right (B–C) Time series of the first Principal Component (PC1): (B) 1995–2025 and (C) the past two years, highlighting strong seasonal cycles with peaks in winter and troughs in summer.</p>
-<center>
-<img src="img/sst_plot.png" width="100%">
-</center>
-<p>The EOF1 map shows that the Australian mainland has negative values, while areas north of Australia have positive values (Figure 2A). This means that when the dominant mode (PC1) is positive, sea surface temperatures (SSTs) are generally warmer in northern waters and cooler around southern Australia, and vice versa. The PC1 time series reflects a clear annual cycle, with lowest values during summer (around February) corresponding to warmer SSTs, and highest values during winter (around August) representing cooler conditions (Figure 2B &amp; 2C).</p>
-</section>
-<section id="conclusion" class="level4">
-<h4 class="anchored" data-anchor-id="conclusion">Conclusion</h4>
-<p>The analysis reveals that the dominant mode of sea surface temperature (SST) variability around Australia is strongly linked to the seasonal cycle. The first principal component (PC1) explains about 69% of total variation, indicating that most SST changes are driven by regular, repeating seasonal patterns. The spatial pattern (EOF1) shows warmer conditions in northern waters and cooler temperatures around southern Australia, reflecting the region’s latitudinal temperature gradient. The PC1 time series captures this annual rhythm, with lower values during summer (around February) and higher values during winter (around August). Overall, the results highlight how seasonal dynamics dominate SST variability, providing a foundation for understanding longer-term changes and trends in Australia’s marine climate.</p>
-</section>
-<section id="code-and-github-repository" class="level4">
-<h4 class="anchored" data-anchor-id="code-and-github-repository">Code and Github Repository</h4>
-<p><a href="https://github.com/WeisiChen1995/Sea-Temperature-Surface">View the Github Repository</a>.</p>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<ul>
+<li><strong>Daily rainfall data:</strong> Downloaded from all available stations in NSW for 2025 (January–September at the time of download).
+<ul>
+<li>Source: <a href="https://www.longpaddock.qld.gov.au/silo/point-data/">SILO Point Data</a><br>
+</li>
+</ul></li>
+<li><strong>Station and geographic data:</strong> Retrieved from <a href="https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php">SILO Patched Point Dataset</a><br>
+</li>
+<li>Daily rainfall values were aggregated to monthly totals for analysis.<br>
+</li>
+<li>The process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.<br>
+</li>
+<li><strong>Interactive download:</strong> Users can download the rainfall data directly from the interactive map.</li>
+</ul>
+<section id="github-repository" class="level4">
+<h4 class="anchored" data-anchor-id="github-repository">Github Repository</h4>
+<p><a href="https://github.com/WeisiChen1995/climate">View the Github Repository</a>.</p>
 
 
 </section>
