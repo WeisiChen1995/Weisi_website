@@ -10,9 +10,8 @@ project:
     - "climate.qmd"
   
 website:
-  title: "Weisi's website"
+  title: "Weisi Chen"
   favicon: img/logo2.jpg
-  description: "The personal website of Weisi"
   site-url: https://weisichen.org
   navbar:
     logo: img/logo2.jpg

@@ -6,6 +6,20 @@ execute:
   echo: false
 ---
 
+### 🌦️ Project Background
+
+This project examines rainfall patterns across New South Wales (NSW) in 2025 using data collected from rainfall stations. Because stations are unevenly distributed, not all areas of NSW are directly observed.
+
+To estimate rainfall in unsampled regions, kriging, a spatial interpolation technique, was applied to the station data. For each month, a variogram model was fitted and explored to determine the most suitable kriging parameters, ensuring the interpolated map accurately represents spatial rainfall patterns across the state.
+
+
+### 📝 User's Note
+The results are presented through an interactive map:
+
+* Click "Rain Stations" to view rainfall data for individual stations. Hover over stations to see rainfall data for each staton
+* Click "Kriging" to see the interpolated rainfall map.
+
+Additional details about the data sources and the kriging technique are provided at the bottom of the page.
 
 <!-- Full-page CSS for iframe and loading message -->
 <style>
@@ -13,16 +27,25 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Container for intro + app */
+#app-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: #f8f8f8; /* optional background */
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* iframe smaller than full page */
 #shiny-iframe {
-  width: 90vw;   /* 90% of viewport width */
-  height: 90vh;  /* 90% of viewport height */
+  width: 80vw;   /* 95% of viewport width */
+  height: 90vh;  /* 70% of viewport height */
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -44,15 +67,31 @@ html, body {
 }
 </style>
 
-<!-- Loading message -->
-<div id="loading-message">
-  Loading NSW Rainfall Kriging Map...
+<!-- App container -->
+<div id="app-container">
+  <!-- Loading message -->
+  <div id="loading-message">
+    Loading NSW Rainfall Kriging Map...
+  </div>
+
+  <!-- Embed Shiny app -->
+  <iframe 
+      id="shiny-iframe"
+      src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/"
+      onload="document.getElementById('loading-message').style.display='none';">
+  </iframe>
 </div>
 
-<!-- Embed Shiny app -->
-<iframe 
-    id="shiny-iframe"
-    src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/"
-    onload="document.getElementById('loading-message').style.display='none';">
-</iframe>
+### Data
+- **Daily rainfall data:** Downloaded from all available stations in NSW for 2025 (January–September at the time of download).  
+  - Source: [SILO Point Data](https://www.longpaddock.qld.gov.au/silo/point-data/)  
+- **Station and geographic data:** Retrieved from [SILO Patched Point Dataset](https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php)  
+- Daily rainfall values were aggregated to monthly totals for analysis.  
+- The process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.  
+- **Interactive download:** Users can download the rainfall data directly from the interactive map.  
+
+
+#### Github Repository
+[View the Github Repository](https://github.com/WeisiChen1995/climate).
+
 

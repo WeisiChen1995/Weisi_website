@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NSW Rainfall Kriging Map – Weisi’s website</title>
+<title>NSW Rainfall Kriging Map – Weisi Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./img/logo2.jpg" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Weisi’s website</span>
+    <span class="navbar-title">Weisi Chen</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -149,11 +149,19 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-background" id="toc-project-background" class="nav-link active" data-scroll-target="#project-background">🌦️ Project Background</a></li>
+  <li><a href="#users-note" id="toc-users-note" class="nav-link" data-scroll-target="#users-note">📝 User’s Note</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -162,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -174,22 +182,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="project-background" class="level3">
+<h3 class="anchored" data-anchor-id="project-background">🌦️ Project Background</h3>
+<p>This project examines rainfall patterns across New South Wales (NSW) in 2025 using data collected from rainfall stations. Because stations are unevenly distributed, not all areas of NSW are directly observed.</p>
+<p>To estimate rainfall in unsampled regions, kriging, a spatial interpolation technique, was applied to the station data. For each month, a variogram model was fitted and explored to determine the most suitable kriging parameters, ensuring the interpolated map accurately represents spatial rainfall patterns across the state.</p>
+</section>
+<section id="users-note" class="level3">
+<h3 class="anchored" data-anchor-id="users-note">📝 User’s Note</h3>
+<p>The results are presented through an interactive map:</p>
+<ul>
+<li>Click “Rain Stations” to view rainfall data for individual stations. Hover over stations to see rainfall data for each staton</li>
+<li>Click “Kriging” to see the interpolated rainfall map.</li>
+</ul>
+<p>Additional details about the data sources and the kriging technique are provided at the bottom of the page.</p>
 <!-- Full-page CSS for iframe and loading message -->
 <style>
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Container for intro + app */
+#app-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  background-color: #f8f8f8; /* optional background */
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 /* iframe smaller than full page */
 #shiny-iframe {
-  width: 90vw;   /* 90% of viewport width */
-  height: 90vh;  /* 90% of viewport height */
+  width: 80vw;   /* 95% of viewport width */
+  height: 90vh;  /* 70% of viewport height */
   border: 2px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
@@ -210,15 +240,38 @@ html, body {
   border-radius: 8px;
 }
 </style>
+<!-- App container -->
+<div id="app-container">
 <!-- Loading message -->
 <div id="loading-message">
-<p>Loading NSW Rainfall Kriging Map…</p>
+<pre><code>Loading NSW Rainfall Kriging Map...</code></pre>
 </div>
-<!-- Embed Shiny app -->
-<iframe id="shiny-iframe" src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/" onload="document.getElementById('loading-message').style.display='none';">
-</iframe>
+<p><!-- Embed Shiny app --> <iframe id="shiny-iframe" src="https://uw1cdw-chen-sophie.shinyapps.io/climate-app/" onload="document.getElementById('loading-message').style.display='none';"> </iframe></p>
+</div>
+</section>
+<section id="data" class="level3">
+<h3 class="anchored" data-anchor-id="data">Data</h3>
+<ul>
+<li><strong>Daily rainfall data:</strong> Downloaded from all available stations in NSW for 2025 (January–September at the time of download).
+<ul>
+<li>Source: <a href="https://www.longpaddock.qld.gov.au/silo/point-data/">SILO Point Data</a><br>
+</li>
+</ul></li>
+<li><strong>Station and geographic data:</strong> Retrieved from <a href="https://www.longpaddock.qld.gov.au/cgi-bin/silo/PatchedPointDataset.php">SILO Patched Point Dataset</a><br>
+</li>
+<li>Daily rainfall values were aggregated to monthly totals for analysis.<br>
+</li>
+<li>The process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.<br>
+</li>
+<li><strong>Interactive download:</strong> Users can download the rainfall data directly from the interactive map.</li>
+</ul>
+<section id="github-repository" class="level4">
+<h4 class="anchored" data-anchor-id="github-repository">Github Repository</h4>
+<p><a href="https://github.com/WeisiChen1995/climate">View the Github Repository</a>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

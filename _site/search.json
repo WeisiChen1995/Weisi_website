@@ -4,7 +4,7 @@
     "href": "climate.html",
     "title": "NSW Rainfall Kriging Map",
     "section": "",
-    "text": "Loading NSW Rainfall Kriging Map…"
+    "text": "🌦️ Project Background\nThis project examines rainfall patterns across New South Wales (NSW) in 2025 using data collected from rainfall stations. Because stations are unevenly distributed, not all areas of NSW are directly observed.\nTo estimate rainfall in unsampled regions, kriging, a spatial interpolation technique, was applied to the station data. For each month, a variogram model was fitted and explored to determine the most suitable kriging parameters, ensuring the interpolated map accurately represents spatial rainfall patterns across the state.\n\n\n📝 User’s Note\nThe results are presented through an interactive map:\n\nClick “Rain Stations” to view rainfall data for individual stations. Hover over stations to see rainfall data for each staton\nClick “Kriging” to see the interpolated rainfall map.\n\nAdditional details about the data sources and the kriging technique are provided at the bottom of the page.\n\n\n\n\n\n\nLoading NSW Rainfall Kriging Map...\n\n  \n\n\n\nData\n\nDaily rainfall data: Downloaded from all available stations in NSW for 2025 (January–September at the time of download).\n\nSource: SILO Point Data\n\n\nStation and geographic data: Retrieved from SILO Patched Point Dataset\n\nDaily rainfall values were aggregated to monthly totals for analysis.\n\nThe process was automated using an R script to download rainfall data from all NSW stations, avoid the need for manual collection.\n\nInteractive download: Users can download the rainfall data directly from the interactive map.\n\n\nGithub Repository\nView the Github Repository."
   },
   {
     "objectID": "blog/2025-01-25-Happy-Chinese-New-Year/index.html",
@@ -39,7 +39,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About This Website\nThis website is built with Qarto.\nThis space is dedicated to sharing insights, resources, and projects, as well as glimpses of life for fun and inspiration. I am constantly updating the website and correcting any mistakes.\nView the Github Repository.\n\n\n\nContact Me\nEmail: weisi.0816@gmail.com\nLinkedIn: Weisi Chen"
+    "text": "About This Website\nThis website is built with Qarto.\nThis space is dedicated to sharing insights, resources, and projects, as well as glimpses of life for fun and inspiration.\nView the Github Repository.\n\n\n\nContact Me\nEmail: weisi.0816@gmail.com\nLinkedIn: Weisi Chen"
   },
   {
     "objectID": "blog/index.html",
