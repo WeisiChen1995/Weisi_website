@@ -1,0 +1,131 @@
+<style>
+/* ===== FULL SCREEN LOADER ===== */
+#loading-screen {
+  position: fixed;
+  inset: 0;
+  background: var(--bg, #fdfcf9); /* soft ivory */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent, #7c6fcf);
+  font-family: "Fira Code", monospace;
+  overflow-y: auto; /* allow scroll */
+  z-index: 9999;
+  transition: opacity 1.2s ease;
+}
+
+/* ===== COMPUTER MONITOR ===== */
+.computer {
+  position: relative;
+  width: 70vw;
+  max-width: 800px;
+  height: 45vh;
+  background: #fff; /* light monitor */
+  border: 4px solid var(--accent, #7c6fcf);
+  border-radius: 12px;
+  box-shadow: 0 0 24px rgba(124, 111, 207,0.2), inset 0 0 8px rgba(124, 111, 207,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  animation: monitorZoom 4s ease forwards;
+}
+
+/* zoom out animation */
+@keyframes monitorZoom {
+  0% { transform: scale(1.1); }
+  70% { transform: scale(1.0); }
+  100% { transform: scale(0); }
+}
+
+/* ===== SCREEN ===== */
+.screen {
+  width: 95%;
+  height: 85%;
+  background: #f8f6ff; /* soft card color inside monitor */
+  border: 2px solid rgba(124,111,207,0.3);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ===== SCROLLING CODE ===== */
+.matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(124, 111, 207, 0.8); /* lavender text */
+  white-space: pre;
+  text-align: center;
+  animation: matrixScroll 3s linear infinite;
+}
+
+@keyframes matrixScroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100%); }
+}
+
+/* ===== TERMINAL TEXT ===== */
+#terminal-line {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  border-right: 3px solid var(--accent, #7c6fcf);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(25) 0.5s forwards, blink-caret 0.8s step-end infinite;
+}
+
+@keyframes typing { from { width: 0; } to { width: 25ch; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+#loading-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: rgba(124,111,207,0.6);
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink { 0%,100%{opacity:1}50%{opacity:0.4} }
+</style>
+
+<div id="loading-screen">
+  <div class="computer">
+    <div class="screen">
+      <div class="matrix" id="matrix"></div>
+    </div>
+  </div>
+  <div id="terminal-line">Booting data systems...</div>
+  <div id="loading-text">Loading Weisi Chen Website...</div>
+</div>
+
+<script>
+const matrix = document.getElementById('matrix');
+const chars = "1010 DATA AI ML R SAS 010101"; // simple readable characters
+
+function generateMatrix() {
+  let text = "";
+  for (let i = 0; i < 600; i++) {
+    text += chars.charAt(Math.floor(Math.random() * chars.length));
+    if (i % 100 === 0) text += "\n";
+  }
+  matrix.textContent = text;
+}
+generateMatrix();
+setInterval(generateMatrix, 120);
+
+// fade out after 4s
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(() => {
+    const loader = document.getElementById('loading-screen');
+    loader.style.opacity = '0';
+    setTimeout(() => loader.remove(), 1200);
+  }, 4000);
+});
+</script>

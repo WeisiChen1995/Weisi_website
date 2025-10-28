@@ -1,0 +1,52 @@
+---
+title: "AU Sea Surface Temperature (1995-2025)"
+page-layout: full
+format: 
+  html:
+    toc: true
+    toc-depth: 5 
+---
+
+### Background
+
+Sea surface temperature (SST) is a key indicator of ocean and climate variability, affecting weather, marine life, and coastal processes. In Australia, SST varies seasonally and year-to-year, influenced by climate events like El Niño–Southern Oscillation (ENSO) and the Indian Ocean Dipole (IOD). This project explores SST changes around Australia from January 1995 to December 2025 using monthly data from [NOAA’s Extended Reconstructed Sea Surface Temperature (ERSST) dataset](https://www.psl.noaa.gov/data/gridded/data.noaa.ersst.v5.html). By applying Principal Component Analysis (PCA), I reveal the dominant patterns in both space and time.
+
+### Project Objetives
+
+* Map SST across Australian waters and nearby seas.
+* Create animations showing monthly SST changes over 30 years.
+* Use PCA to identify key temperature patterns and variability modes.
+* Understand ocean warming trends and regional climate dynamics.
+
+### Method
+
+SST data were converted to standardized anomalies, with months as rows and locations as columns. PCA was applied to identify the dominant variability mode (PC1) and its spatial pattern (EOF1). PC1 shows how SST changes over time, while EOF1 highlights which regions contribute most to the dominant mode. Results are shown as an EOF1 map and PC1 time series, both for 1995–2025 and a detailed view of the past two years.
+
+### Result
+
+#### Figure 1: Animation to visualize monthly changes to Sea Surface Temperature, January 1995 to December 2025
+
+![SST Animation](img/sst_1995_2025.gif){width=800px}
+
+#### Figure 2: Dominant Mode of SST Variability Around Australia (1995–2025).
+Left (A): Spatial pattern of the first Empirical Orthogonal Function (EOF1), showing cooler SSTs around southern Australia and warmer SSTs to the north.
+Right (B–C) Time series of the first Principal Component (PC1): (B) 1995–2025 and (C) the past two years, highlighting strong seasonal cycles with peaks in winter and troughs in summer.
+
+<center>
+<img src="img/sst_plot.png" width="100%">
+</center>
+
+
+The EOF1 map shows that the Australian mainland has negative values, while areas north of Australia have positive values (Figure 2A). This means that when the dominant mode (PC1) is positive, sea surface temperatures (SSTs) are generally warmer in northern waters and cooler around southern Australia, and vice versa. The PC1 time series reflects a clear annual cycle, with lowest values during summer (around February) corresponding to warmer SSTs, and highest values during winter (around August) representing cooler conditions (Figure 2B & 2C).
+
+
+### Conclusion
+
+The analysis reveals that the dominant mode of sea surface temperature (SST) variability around Australia is strongly linked to the seasonal cycle. The first principal component (PC1) explains about 69% of total variation, indicating that most SST changes are driven by regular, repeating seasonal patterns. The spatial pattern (EOF1) shows warmer conditions in northern waters and cooler temperatures around southern Australia, reflecting the region’s latitudinal temperature gradient. The PC1 time series captures this annual rhythm, with lower values during summer (around February) and higher values during winter (around August). Overall, the results highlight how seasonal dynamics dominate SST variability, providing a foundation for understanding longer-term changes and trends in Australia’s marine climate.
+
+
+### Code and Github Repository
+[View the Github Repository](https://github.com/WeisiChen1995/Sea-Temperature-Surface).
+
+
+

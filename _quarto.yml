@@ -8,6 +8,7 @@ project:
     - "blog/index.qmd"
     - "blog/**/*.qmd"
     - "climate.qmd"
+    - "sst.qmd"
   
 website:
   title: "Weisi Chen"
@@ -26,8 +27,10 @@ website:
             href: cv.qmd
       - text: "Projects"
         menu:
-           - text: "Climate"
+           - text: "NSW Rainfall"
              href: climate.qmd
+           - text: "AU Sea Surface Temperature"
+             href: sst.qmd
     right:
       - text: "Other"
         href: blog/index.qmd
@@ -38,6 +41,8 @@ website:
   page-footer:
     center:
       - text: "<a href='https://github.com/WeisiChen1995' target='blank'><i class='bi bi-github'></i></a> &nbsp;<a href='https://www.linkedin.com/in/weisi-chen-000334239/' target='blank'><i class='bi bi-linkedin'></i></a> &nbsp;<a href='https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en/' target='blank'><i class='ai ai-google-scholar fa-lg'></i></a> &nbsp;<a href='https://www.researchgate.net/profile/Weisi-Chen-3' target='blank'><i class='ai ai-researchgate fa-lg'></i></a> &nbsp;<a <br>Website made with 🖤 and <a href='https://quarto.org/' target='_blank'><img src='https://quarto.org/favicon.png' width=12> quarto</a><br>© 2025 Weisi Chen"
+    left: | 
+      <script data-goatcounter="https://weisichen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
 format:
   html:

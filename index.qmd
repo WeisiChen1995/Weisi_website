@@ -16,6 +16,7 @@ format:
     mainfont: "Inter"
     theme: flatly
     page-layout: full
+    include-in-header: "animation.html"
 ---
 
 <style>
