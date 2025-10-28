@@ -84,12 +84,13 @@ ul.task-list li input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* scroll starts from top */
   color: var(--accent, #7c6fcf);
   font-family: "Fira Code", monospace;
   overflow-y: auto; /* allow scroll */
   z-index: 9999;
   transition: opacity 1.2s ease;
+  padding-top: 50px; /* allow space for scrolling */
 }
 
 /* ===== COMPUTER MONITOR ===== */
@@ -98,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
   width: 70vw;
   max-width: 800px;
   height: 45vh;
-  background: #fff; /* light monitor */
+  background: #fff;
   border: 4px solid var(--accent, #7c6fcf);
   border-radius: 12px;
   box-shadow: 0 0 24px rgba(124, 111, 207,0.2), inset 0 0 8px rgba(124, 111, 207,0.1);
@@ -106,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   animation: monitorZoom 4s ease forwards;
 }
 
@@ -121,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 .screen {
   width: 95%;
   height: 85%;
-  background: #f8f6ff; /* soft card color inside monitor */
+  background: #f8f6ff;
   border: 2px solid rgba(124,111,207,0.3);
   border-radius: 6px;
   overflow: hidden;
@@ -184,8 +185,9 @@ ul.task-list li input[type="checkbox"] {
 
 <script>
 const matrix = document.getElementById('matrix');
-const chars = "1010 DATA AI ML R SAS 010101"; // simple readable characters
+const chars = "1010 DATA AI ML R SAS 010101";
 
+// generate initial matrix
 function generateMatrix() {
   let text = "";
   for (let i = 0; i < 600; i++) {
@@ -197,11 +199,13 @@ function generateMatrix() {
 generateMatrix();
 setInterval(generateMatrix, 120);
 
-// fade out after 4s
+// fade out monitor after 4s but allow scroll until then
 document.addEventListener("DOMContentLoaded", function() {
   setTimeout(() => {
     const loader = document.getElementById('loading-screen');
+    loader.style.transition = "opacity 1.2s ease, transform 1.2s ease";
     loader.style.opacity = '0';
+    loader.style.transform = 'translateY(-50px)'; // subtle upward movement
     setTimeout(() => loader.remove(), 1200);
   }, 4000);
 });
@@ -269,7 +273,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./blog/index.html"> 
-<span class="menu-text">Other</span></a>
+<span class="menu-text">🤍</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
