@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: "Blog"
+navbar: false
 author: "Weisi"
 listing:
   contents: "index.qmd"

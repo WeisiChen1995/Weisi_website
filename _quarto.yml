@@ -32,8 +32,9 @@ website:
            - text: "AU Sea Surface Temperature"
              href: sst.qmd
     right:
-      - text: "Other"
+      - text: "🤍"
         href: blog/index.qmd
+        aria-label: "Other"
     tools:
       - icon: github
         href: https://github.com/WeisiChen1995/Weisi_website
