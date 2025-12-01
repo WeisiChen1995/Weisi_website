@@ -4,7 +4,6 @@ project:
   render: 
     - "index.qmd"
     - "about.qmd"
-    - "cv.qmd"
     - "blog/index.qmd"
     - "blog/**/*.qmd"
     - "climate.qmd"
@@ -23,8 +22,6 @@ website:
         menu:
           - text: "About"
             href: about.qmd
-          - text: "Curriculum Vitae"
-            href: cv.qmd
       - text: "Projects"
         menu:
            - text: "NSW Rainfall"

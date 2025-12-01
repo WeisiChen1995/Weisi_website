@@ -1,8 +1,7 @@
 ---
 title: "Weisi Chen"
 subtitle: |
-  [📄 CV](https://github.com/WeisiChen1995/CV/blob/main/cv-wc.pdf?raw=TRUE)
-  • [✉️ weisi.0816@gmail.com](mailto:weisi.0816@gmail.com)
+  [✉️ weisi.0816@gmail.com](mailto:weisi.0816@gmail.com)
   • [🔗 LinkedIn](https://www.linkedin.com/in/weisi-chen-000334239/)
 image: "img/weisi.jpg"
 about:
