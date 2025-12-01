@@ -42,25 +42,18 @@
     "text": "About Vienna\n\n\n\n\n\n \n\n\n\n\n\n2025-10-18\n\n\nWeisi\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Nanjing\n\n\n\n\n\n \n\n\n\n\n\n2025-02-02\n\n\nWeisi\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Hangzhou\n\n\n\n\n\n \n\n\n\n\n\n2025-02-01\n\n\nWeisi\n\n\n\n\n\n\n\n\n\n\n\n\nHappy Chinese New Year 2025\n\n\n\n\n\n \n\n\n\n\n\n2025-01-25\n\n\nWeisi\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Weisi Chen",
+    "section": "",
+    "text": "👋 Hi, I’m Weisi\nI’m a data analyst based in Sydney, Australia, with a former background in pharmacy. \nMy interests focus on three key areas:\n1. 💻 Coding  2. 📊 Data visualization  3. 📈 Expanding my knowledge of statistical and analytical methods \nSince 2023, I’ve been working with large, linked health administrative datasets across platforms such as SURE, PLIDA, and NHDH. I’m proficient in SAS and R, which I use extensively for data cleaning, statistical modeling, and visualization.\nOutside of work, I enjoy exploring art, traveling, and spending quality time with my family.\nTechnical Skills: SAS • R • big data management • Statistical modeling • Visualization  Professional Interests: Reproducible Research • Data Visualization • Statistical modeling"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About This Website\nThis website is built with Qarto.\nThis space is dedicated to sharing insights, resources, and projects, as well as glimpses of life for fun and inspiration.\nView the Github Repository.\n\n\n\nContact Me\nEmail: weisi.0816@gmail.com\nLinkedIn: Weisi Chen"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Weisi Chen",
-    "section": "",
-    "text": "👋 Hi, I’m Weisi\nI’m a data analyst based in Sydney, Australia, with a former background in pharmacy. \nMy interests focus on three key areas:\n1. 💻 Coding  2. 📊 Data visualization  3. 📈 Expanding my knowledge of statistical and analytical methods \nSince 2023, I’ve been working with large, linked health administrative datasets across platforms such as SURE, PLIDA, and NHDH, gaining hands-on experience in managing and analyzing complex population-level data. I’m proficient in SAS and R, which I use extensively for data cleaning, statistical modeling, and visualization.\nOutside of work, I enjoy exploring art, traveling, and spending quality time with my family.\nTechnical Skills: SAS • R • Big Data Management • Statistical modeling • Visualization  Professional Interests: Reproducible Research • Data Visualization • Statistical modeling"
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "📄 Download full CV here\n\nContact\n✉️ weisi.0816@gmail.com\n\n\nBrief Biography\nI am a data analyst with a former background in pharmacy, bringing a unique combination of domain knowledge and analytical expertise to complex health data projects. I am highly disciplined, detail-oriented, and driven by a strong passion for reproducible research, statistical analysis, and data visualization.\nI am proficient in statistical software such as R and SAS, with experience in data cleaning, analysis, visualization, and statistical modelling. Over the years, I have worked with large, linked health administrative datasets across platforms such as SURE, PLIDA, and NHDH. I am familiar with nationwide and NSW state level datasets, including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) and Medicare Benefits Schedule (MBS) claims, and death registrations.\nI am deeply committed to continuous learning and professional development, always eager to explore new packages, techniques, or skills that enhance my ability to analyze data effectively and deliver meaningful insights.\n\n\nProfessional Interests\n• Reproducible Research • Data Visualization • Statistical modeling\n\n\nEducation Background\n\n2021 – 2023, Master of Health Data Science, University of New South Wales (WAM:88%; Dissertation: 91%) Dissertation: Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV\n2015 – 2019, Bachelor of Pharmacy, University of Sydney\n\n\n\nPublications\nGoogle Scholar Profile\n\n\nProfessional Experience\nI transitioned into data-focused work in 2021 through the Master of Health Data Science program at the University of New South Wales (UNSW). My first quantitative project, my master’s dissertation at the Kirby Institute, UNSW, involved developing a beta-distributed generalized linear mixed-effects model (GLMM) to examine longitudinal changes in cardiovascular risk among people living with HIV. This project provided me with a strong foundation in statistical modeling, data manipulation, and applied epidemiological research.\nSince July 2023, I have been working as a Data Scientist at the School of Public Health, UNSW, and the School of Pharmacy, University of Sydney (USYD). In this role, I have gained extensive experience working with large, linked administrative health datasets through platforms such as SURE, PLIDA, and NHDH. My responsibilities include constructing population-based cohorts across multiple data sources, performing project-specific statistical analyses, and supporting research in the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. I routinely apply SAS and R for data cleaning, integration, modeling, and visualization, translating complex datasets into actionable insights.\nPrior to my transition into data science, I worked as a pharmacist at various community and hospital pharmacies in Sydney, Australia, where I developed a strong understanding of clinical workflows, medication management, and patient care. This clinical background complements my current research, allowing me to bridge the gap between health data analytics and practical healthcare applications."
   },
   {
     "objectID": "blog/2025-01-20-about-Nanjing/index.html",
